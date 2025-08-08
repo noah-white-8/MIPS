@@ -1,0 +1,138 @@
+C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity enable_logic
+-- Compiling architecture behavioral of Enable_logic
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registerfile
+-- Compiling architecture sync_read of registerfile
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg
+-- Compiling architecture BHV of reg
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extend
+-- Compiling architecture behavioral of sign_extend
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_level
+-- Compiling architecture structural of top_level
+-- Loading entity Controller
+-- Loading entity Datapath
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_control
+-- Compiling architecture behavioral of alu_control
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/PC.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/PC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PC
+-- Compiling architecture behavioral of PC
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Controller
+-- Compiling architecture behavioral of Controller
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_top_level
+-- Compiling architecture behavior of tb_top_level
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity RAM
+-- Compiling architecture SYN of ram
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Datapath
+-- Compiling architecture structural of Datapath
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux2to1
+-- Compiling architecture Behavior of mux2to1
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux4to1
+-- Compiling architecture Behavior of mux4to1
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory_top_level
+-- Compiling architecture structural of Memory_top_level
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture behavioral of alu
+
+} {} {}}

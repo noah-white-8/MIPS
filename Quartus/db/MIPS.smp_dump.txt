@@ -1,0 +1,6 @@
+
+State Machine - |top_level|Controller:U_Controller|state_r
+Name state_r.INST_FETCH2 state_r.INST_FETCH1 state_r.START 
+state_r.START 0 0 0 
+state_r.INST_FETCH1 0 1 1 
+state_r.INST_FETCH2 1 0 1 

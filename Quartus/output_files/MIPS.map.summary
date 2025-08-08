@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Aug  5 22:06:59 2025
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : MIPS
+Top-level Entity Name : top_level
+Family : MAX 10
+Total logic elements : 255
+    Total combinational functions : 223
+    Dedicated logic registers : 161
+Total registers : 161
+Total pins : 45
+Total virtual pins : 0
+Total memory bits : 8,192
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
