@@ -19,7 +19,7 @@
 # 15 compiles, 0 failed with no errors.
 vsim -gui work.tb_top_level
 # vsim -gui work.tb_top_level 
-# Start time: 14:14:48 on Aug 06,2025
+# Start time: 12:50:40 on Aug 08,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -44,92 +44,8 @@ vsim -gui work.tb_top_level
 # Loading work.sign_extend(behavioral)
 # Loading work.alu(behavioral)
 # Loading work.alu_control(behavioral)
-run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491515 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491515 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491525 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491525 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491535 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491535 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491545 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491545 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491555 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491555 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491565 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491565 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-run -all
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491515 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491515 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491525 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491525 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491535 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491535 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491545 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491545 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491555 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491555 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491565 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491565 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491515 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491515 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491525 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491525 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491535 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491535 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491545 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491545 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491555 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491555 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491565 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 491565 ns  Iteration: 1  Instance: /tb_top_level/UUT/U_Datapath/U_RegFile
 quit -sim
-# End time: 14:58:07 on Aug 06,2025, Elapsed time: 0:43:19
-# Errors: 0, Warnings: 13
+# End time: 12:52:48 on Aug 08,2025, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 2
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Temp
