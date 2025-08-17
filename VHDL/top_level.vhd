@@ -1,5 +1,5 @@
 -- Created by Noah White
--- Last Edit: Noah White on 8/6/25
+-- Last Edit: Noah White on 8/16/25
 --
 -- Description: 
 --      Top level entity for the MIPS. Essentially just combining the controller and datapath.
@@ -11,9 +11,12 @@
 --      - 1 cycle for MemRead to be asserted. When next cycle hits, read data is seen on RAM output. That is the RAM timing
 --      - Only need Quartus to acquire the RAM IP file as far as I can tell. Also need Quartus for full synthesis
 --
--- NEXT STEPS (Updated 8/6/25):
+--      - R-type is the only type with the same OPCode for all INSTS. I-type has diff OPCode for diff instructions
+--
+-- NEXT STEPS (Updated 8/15/25):
 --      - Attempt to use the memory viewer thing in ModelSim (don't need to do yet, prob just do when needed)
 --      - GENERAL: Continue watching Stitt video and figuring out how to do controller based on resources and whatever else
+--      - Instruction Decode: Add a instr decode cycle for the controller
 --
 
 
@@ -51,7 +54,7 @@ architecture structural of top_level is
     signal IsSigned         : std_logic;
     signal ALUSrcA          : std_logic;
     signal ALUSrcB          : std_logic_vector(1 downto 0);
-    signal ALUOp            : std_logic_vector(2 downto 0);
+    signal ALUOp            : std_logic_vector(5 downto 0);
     signal PCSource         : std_logic_vector(1 downto 0);
 
     -- Datapath only signals

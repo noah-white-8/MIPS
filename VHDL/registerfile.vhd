@@ -14,8 +14,8 @@ entity registerfile is
         wr_en : in std_logic;
         wr_data : in std_logic_vector(31 downto 0); --write data
 		  
-        rd_data0 : out std_logic_vector(31 downto 0); --read data 1 (A)
-        rd_data1 : out std_logic_vector(31 downto 0); --read data 2 (B)
+        rd_data0 : out std_logic_vector(31 downto 0); --read data 1 (A) (Register cuz synchronous)
+        rd_data1 : out std_logic_vector(31 downto 0); --read data 2 (B) (Register cuz synchronous)
 	
 	    --JAL	
 	    JumpAndLink : in std_logic
@@ -43,9 +43,9 @@ begin
                 regs(to_integer(unsigned(wr_addr))) <= wr_data;
 					 regs(0) <= (others => '0');
             end if;
-	    if(JumpAndLink = '1') then
-		regs(31) <= wr_data;
-	    end if;
+            if(JumpAndLink = '1') then
+                regs(31) <= wr_data;
+            end if;
             rd_data0 <= regs(to_integer(unsigned(rd_addr0)));
             rd_data1 <= regs(to_integer(unsigned(rd_addr1)));
         end if;

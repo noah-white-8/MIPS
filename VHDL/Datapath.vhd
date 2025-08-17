@@ -1,5 +1,4 @@
 -- Noah White
--- Section #: 11088
 -- rst comes from button_input(1) so it's not in port. Might need to add a rst to alu_control
 
 LIBRARY ieee;
@@ -23,7 +22,7 @@ entity Datapath is
         IsSigned_ctrl       : in std_logic;
         ALUSrcA_ctrl        : in std_logic;
         ALUSrcB_ctrl        : in std_logic_vector(1 downto 0);
-        ALUOp_ctrl          : in std_logic_vector(2 downto 0);                     -- Might be a vector and change later
+        ALUOp_ctrl          : in std_logic_vector(5 downto 0);              -- Sets INST type (goes to alu_control)
         PCSource_ctrl       : in std_logic_vector(1 downto 0);
         button_input        : in std_logic_vector(1 downto 0);
         switch_input        : in std_logic_vector(9 downto 0);
@@ -127,7 +126,7 @@ architecture structural of Datapath is
     COMPONENT alu_control
     PORT(
         IR_5to0             : in std_logic_vector(5 downto 0);
-        ALUOp               : in std_logic_vector(2 downto 0);                     -- Might be a vector and change later
+        ALUOp               : in std_logic_vector(5 downto 0);                     -- Might be a vector and change later
         OpSel               : out std_logic_vector(7 downto 0);
         HI_en               : out std_logic;
         LO_en               : out std_logic;
