@@ -13,199 +13,8 @@
 # Compile of top_level.vhd was successful.
 # Compile of RAM.vhd was successful.
 # Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd failed with 1 errors.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 1 failed with 1 error.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd failed with 1 errors.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 1 failed with 1 error.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd failed with 2 errors.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 1 failed with 2 errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd failed with 1 errors.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 1 failed with 1 error.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful with warnings.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful with warnings.
-# Compile of Controller.vhd was successful with warnings.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful with warnings.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful with warnings.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
+# Compile of tb_alu.vhd was successful.
+# 16 compiles, 0 failed with no errors.
 # Compile of alu.vhd was successful.
 # Compile of alu_control.vhd was successful.
 # Compile of Controller.vhd was successful.
@@ -221,7 +30,10 @@
 # Compile of top_level.vhd was successful.
 # Compile of RAM.vhd was successful.
 # Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
+# Compile of tb_alu.vhd was successful.
+# Compile of tb_alu_control.vhd was successful.
+# Compile of tb_Controller.vhd was successful.
+# 18 compiles, 0 failed with no errors.
 # Compile of alu.vhd was successful.
 # Compile of alu_control.vhd was successful.
 # Compile of Controller.vhd was successful.
@@ -237,7 +49,11 @@
 # Compile of top_level.vhd was successful.
 # Compile of RAM.vhd was successful.
 # Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
+# Compile of tb_alu.vhd was successful.
+# Compile of tb_alu_control.vhd was successful.
+# Compile of tb_Controller.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+# Load canceled
 # Compile of alu.vhd was successful.
 # Compile of alu_control.vhd was successful.
 # Compile of Controller.vhd was successful.
@@ -253,4 +69,119 @@
 # Compile of top_level.vhd was successful.
 # Compile of RAM.vhd was successful.
 # Compile of tb_top_level.vhd was successful.
-# 15 compiles, 0 failed with no errors.
+# Compile of tb_alu.vhd was successful.
+# Compile of tb_alu_control.vhd was successful.
+# Compile of tb_Controller.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_controller
+# vsim -gui work.tb_controller 
+# Start time: 16:01:20 on Aug 17,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_controller(tb)
+# Loading work.controller(behavioral)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: noahw  Hostname: NOAHS-PC  ProcessID: 3696
+#           Attempting to use alternate WLF file "./wlft517w77".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft517w77
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 16:29:52 on Aug 17,2025, Elapsed time: 0:28:32
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_alu_control
+# vsim -gui work.tb_alu_control 
+# Start time: 16:30:49 on Aug 17,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu_control(tb)
+# Loading work.alu_control(behavioral)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: noahw  Hostname: NOAHS-PC  ProcessID: 3696
+#           Attempting to use alternate WLF file "./wlft9wrfzt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9wrfzt
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 16:38:05 on Aug 17,2025, Elapsed time: 0:07:16
+# Errors: 0, Warnings: 1
+# Compile of alu.vhd was successful.
+# Compile of alu_control.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of enable_logic.vhd was successful.
+# Compile of Memory_top_level.vhd was successful.
+# Compile of mux2to1.vhd was successful.
+# Compile of mux4to1.vhd was successful.
+# Compile of PC.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of registerfile.vhd was successful.
+# Compile of sign_extend.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of tb_alu.vhd was successful.
+# Compile of tb_alu_control.vhd was successful.
+# Compile of tb_Controller.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu_control
+# vsim -gui work.tb_alu_control 
+# Start time: 16:44:37 on Aug 17,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu_control(tb)
+# Loading work.alu_control(behavioral)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: noahw  Hostname: NOAHS-PC  ProcessID: 3696
+#           Attempting to use alternate WLF file "./wlftjnn97n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjnn97n
+# Can't move the Now cursor.
+run -all
+# ** Note: ADDU passed: got 0x21
+#    Time: 10 ns  Iteration: 0  Instance: /tb_alu_control
+quit -sim
+# End time: 16:48:13 on Aug 17,2025, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 4
+# Compile of alu.vhd was successful.
+# Compile of alu_control.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of enable_logic.vhd was successful.
+# Compile of Memory_top_level.vhd was successful.
+# Compile of mux2to1.vhd was successful.
+# Compile of mux4to1.vhd was successful.
+# Compile of PC.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of registerfile.vhd was successful.
+# Compile of sign_extend.vhd was successful.
+# Compile of top_level.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of tb_top_level.vhd was successful.
+# Compile of tb_alu.vhd was successful.
+# Compile of tb_alu_control.vhd was successful.
+# Compile of tb_Controller.vhd was successful.
+# 18 compiles, 0 failed with no errors.

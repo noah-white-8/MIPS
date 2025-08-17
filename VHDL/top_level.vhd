@@ -1,5 +1,5 @@
 -- Created by Noah White
--- Last Edit: Noah White on 8/16/25
+-- Last Edit: Noah White on 8/17/25
 --
 -- Description: 
 --      Top level entity for the MIPS. Essentially just combining the controller and datapath.
@@ -12,12 +12,15 @@
 --      - Only need Quartus to acquire the RAM IP file as far as I can tell. Also need Quartus for full synthesis
 --
 --      - R-type is the only type with the same OPCode for all INSTS. I-type has diff OPCode for diff instructions
+--      - Can use testbenches for individual entities but for testing them together, prob just use .mif file
 --
--- NEXT STEPS (Updated 8/15/25):
+-- NEXT STEPS (Updated 8/17/25):
 --      - Attempt to use the memory viewer thing in ModelSim (don't need to do yet, prob just do when needed)
 --      - GENERAL: Continue watching Stitt video and figuring out how to do controller based on resources and whatever else
---      - Instruction Decode: Add a instr decode cycle for the controller
---
+--      
+--      - Continue adding the other R-type instructions to alu_control (most should be simple)
+--      - Skip ahead to adding one I-type instruction like ori or addi so can load regfile with stuff
+--      - Test integration with .mif file. Potentially test individuals like alu, etc. with individual testbenches if needed
 
 
 LIBRARY ieee;

@@ -12,6 +12,50 @@
 					"strict" : false
 				},
 				{
+					"name" : "switch_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "button_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[9]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "switch_input[8]",
+					"strict" : false
+				},
+				{
 					"name" : "altera_reserved_tms",
 					"strict" : false
 				},

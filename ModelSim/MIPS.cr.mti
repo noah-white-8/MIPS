@@ -25,6 +25,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity reg
 -- Compiling architecture BHV of reg
 
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_alu
+-- Compiling architecture TB of tb_alu
+
 } {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -33,6 +42,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity sign_extend
 -- Compiling architecture behavioral of sign_extend
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_Controller
+-- Compiling architecture tb of tb_Controller
+-- Loading entity Controller
 
 } {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -71,6 +90,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity Controller
 -- Compiling architecture behavioral of Controller
+
+} {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_alu_control
+-- Compiling architecture tb of tb_alu_control
+-- Loading entity alu_control
 
 } {} {}} C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020

@@ -77,7 +77,7 @@ begin
         IsSigned    <= '0';
         ALUSrcA     <= '0';
         ALUSrcB     <= "00";
-        ALUOp       <= IR31to26;    -- OP Code    
+        ALUOp       <= (others => '1');    -- OP Code    
         PCSource    <= "00";
 
         next_state <= state_r;
@@ -127,6 +127,7 @@ begin
                 MemToReg    <= '0';
                 RegDst      <= '1';
                 RegWrite    <= '1';
+                next_state  <= START;
 
             when others => null;
         end case;

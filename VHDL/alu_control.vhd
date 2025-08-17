@@ -7,7 +7,7 @@ use ieee.numeric_std.all;
 entity alu_control is
     port (
         IR_5to0             : in std_logic_vector(5 downto 0);
-        ALUOp               : in std_logic_vector(5 downto 0);                     -- OP Code, might change later
+        ALUOp               : in std_logic_vector(5 downto 0);      -- OP Code, might change later
         OpSel               : out std_logic_vector(7 downto 0);
         HI_en               : out std_logic;
         LO_en               : out std_logic;
@@ -28,19 +28,21 @@ begin
         LO_en       <= '0';
         ALU_LO_HI   <= "00";
         
-        -- Case for type of instruction and specific instruction
+        -- Cases for type of instruction and specific instruction
         case (ALUOp) is
-            when "000000" =>                    -- R-type
+            when "000000" =>                                        -- R-type
                 case (IR_5to0) is
-                    when "100001" =>            -- ADD Unsigned
-                        OpSel       <= X"21";   -- 0x21 is same as 100001
-                        ALU_LO_HI   <= "00";
+                    when "100001" =>                                -- ADD Unsigned
+                        OpSel       <= X"21";                       -- 0x21 is same as 100001
+
+                    when "100011" =>                                -- SUB Unsigned
+                        OpSel       <= X"23";                       -- 0x23 is same as 100011
 
                     when others => null;
                 end case;
 
-            when "001111" =>                    -- ADD 4 to PC
-                OpSel   <= X"21";               -- For ALU ADD
+            when "001111" =>                                        -- ADD 4 to PC
+                OpSel   <= X"21";                                   -- For ALU ADD
         
             when others => null;
         end case;
