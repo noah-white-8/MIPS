@@ -53,6 +53,12 @@ begin
                 result_hi <= std_logic_vector(temp(2*WIDTH-1 downto WIDTH));
             when X"24" =>                           -- A AND B
                 result <= inputA and inputB;
+            when X"25" =>                           -- A OR B
+                result <= inputA or inputB;
+            when X"26" =>                           -- A XOR B
+                result <= inputA xor inputB;
+            when X"00" =>                           -- shift left logical
+                result <= std_logic_vector(shift_left(unsigned(inputB), to_integer(unsigned(shift))));
             when X"02" =>                           -- shift right logical
                 result <= std_logic_vector(shift_right(unsigned(inputB), to_integer(unsigned(shift))));
             when X"03" =>                           -- arithmetic shift right

@@ -38,6 +38,24 @@ begin
                     when "100011" =>                                -- SUB Unsigned
                         OpSel       <= X"23";                       -- 0x23 is same as 100011
 
+                    when "100100" =>                                -- AND
+                        OpSel       <= X"24";                       -- 0x24 is 100100
+
+                    when "100101" =>                                -- OR
+                        OpSel       <= X"25";                       -- 0x25 is 100101
+
+                    when "100110" =>                                -- XOR
+                        OpSel       <= X"26";                       -- 0x26 is 100110
+
+                    when "000010" =>                                -- Shift Right Logical
+                        OpSel       <= X"02";                       
+
+                    when "000000" =>                                -- Shift Left Logical
+                        OpSel       <= X"00";
+                    
+                    when "000011" =>                                -- Shift Right Arithmetic
+                        OpSel       <= X"03";
+
                     when others => null;
                 end case;
 
