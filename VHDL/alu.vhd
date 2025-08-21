@@ -63,8 +63,14 @@ begin
                 result <= std_logic_vector(shift_right(unsigned(inputB), to_integer(unsigned(shift))));
             when X"03" =>                           -- arithmetic shift right
                 result <= std_logic_vector(shift_right(signed(inputB), to_integer(unsigned(shift))));
-            when X"2A" =>                           -- slt, etc. (Set on less than operations)
+            when X"2A" =>                           -- slt, etc. (Set on less than signed operations)
                 if (signed(inputA) < signed(inputB)) then
+                    result <= X"00000001";
+                else
+                    result <= (others => '0');
+                end if;
+            when X"2B" =>                           -- sltu: set on less than unsigned
+                if (unsigned(inputA) < unsigned(inputB)) then
                     result <= X"00000001";
                 else
                     result <= (others => '0');

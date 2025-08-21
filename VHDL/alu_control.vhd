@@ -56,6 +56,11 @@ begin
                     when "000011" =>                                -- Shift Right Arithmetic
                         OpSel       <= X"03";
 
+                    when "101010" =>                                -- Set on less than signed
+                        OpSel       <= X"2A";
+                    when "101011" =>                                -- Set on less than unsigned
+                        OpSel       <= X"2B";
+
                     when others => null;
                 end case;
 
