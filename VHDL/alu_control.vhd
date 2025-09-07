@@ -23,7 +23,7 @@ begin
     process(IR_5to0, ALUOp)
     begin
         -- DEFAULT VALS HERE
-        OpSel       <= (others => '0');
+        OpSel       <= (others => '1');
         HI_en       <= '0';
         LO_en       <= '0';
         ALU_LO_HI   <= "00";
@@ -60,6 +60,10 @@ begin
                         OpSel       <= X"2A";
                     when "101011" =>                                -- Set on less than unsigned
                         OpSel       <= X"2B";
+                    when "011000" =>                                -- Multiplication signed
+                        OpSel       <= X"18";
+                        HI_en       <= '1';
+                        LO_en       <= '1';
 
                     when others => null;
                 end case;
