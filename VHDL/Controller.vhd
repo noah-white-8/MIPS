@@ -46,7 +46,7 @@ end entity Controller;
 
 -- Here in lies the architecture. Oh how beautiful with her gothic walls and gargoyles
 architecture behavioral of Controller is
-    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE);      -- Each STATE reps one CYCLE imma say
+    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE);      -- Each STATE reps one CYCLE imma say
     signal state_r, next_state : state_t;
     
 begin
@@ -74,10 +74,10 @@ begin
         RegDst      <= '0';
         RegWrite    <= '0';
         JumpAndLink <= '0';
-        IsSigned    <= '0';
+        IsSigned    <= '1';
         ALUSrcA     <= '0';
         ALUSrcB     <= "00";
-        ALUOp       <= (others => '1');    -- OP Code    
+        ALUOp       <= IR31to26;    -- OP Code (could use others => '1' as a default but I think IR31to26 is a better default)
         PCSource    <= "00";
 
         next_state <= state_r;
@@ -116,8 +116,11 @@ begin
                         ALUSrcB     <= "00";            
                         next_state  <= R_TYPE;
 
-                    when "000001" => -- Fill in I-type, J-type, fake type here (current is to avoid syntax errors)
-
+                    when "001001" =>            -- 0x09 for ADDIU (IsSigned default is '1')
+                        ALUOp       <= "001111"; -- 0x0F tells ALU_Control to do an ADD (just like PC+4)
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= I_TYPE;
 
                     when others => null;
                 end case;
@@ -126,6 +129,12 @@ begin
             when R_TYPE =>
                 MemToReg    <= '0';
                 RegDst      <= '1';
+                RegWrite    <= '1';
+                next_state  <= START;
+
+            when I_TYPE =>
+                MemToReg    <= '0';
+                RegDst      <= '0';
                 RegWrite    <= '1';
                 next_state  <= START;
 

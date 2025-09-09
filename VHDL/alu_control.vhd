@@ -64,11 +64,20 @@ begin
                         OpSel       <= X"18";
                         HI_en       <= '1';
                         LO_en       <= '1';
+                    when "011001" =>                                -- Multiplication unsigned
+                        OpSel       <= X"19";
+                        HI_en       <= '1';
+                        LO_en       <= '1';
+                    when "010000" =>                                -- Move from HI register
+                        ALU_LO_HI   <= "10";
+                    when "010010" =>                                -- Move from LO register
+                        ALU_LO_HI   <= "01";
+                    
 
                     when others => null;
                 end case;
 
-            when "001111" =>                                        -- ADD 4 to PC
+            when "001111" =>                                        -- ADD 4 to PC (and for ADDIU)
                 OpSel   <= X"21";                                   -- For ALU ADD
         
             when others => null;
