@@ -21,6 +21,7 @@
 --      - Continue adding the other R-type instructions to alu_control (most should be simple)
 --      - Skip ahead to adding one I-type instruction like ori or addi so can load regfile with stuff
 --      - Test integration with .mif file. Potentially test individuals like alu, etc. with individual testbenches if needed
+--      - Get Chat to write you a .mif file to test all the instructions you have so far now that you have immediates
 
 
 LIBRARY ieee;
@@ -44,6 +45,7 @@ architecture structural of top_level is
 
     -- Controller (and Datapath) signals
     signal IR31to26         : std_logic_vector(5 downto 0);
+    signal IR5to0           : std_logic_vector(5 downto 0);
     signal PCWriteCond      : std_logic;
     signal PCWrite          : std_logic;
     signal IorD             : std_logic;
@@ -72,6 +74,7 @@ begin
             clk             => clk,       
             rst             => button_input(1),       
             IR31to26        => IR31to26,        -- The OP Code I believe
+            IR5to0          => IR5to0,
             PCWriteCond     => PCWriteCond,     -- Goes into a gate outside of controller     
             PCWrite         => PCWrite,         -- Goes into a gate outside of controller
             IorD            => IorD,       
@@ -109,6 +112,7 @@ begin
             button_input        => button_input,
             switch_input        => switch_input,
             IR31to26            => IR31to26,
+            IR5to0              => IR5to0,
             branch_taken        => branch_taken,    -- Goes into a gate outside of controller
             outport_data        => outport_data
         );

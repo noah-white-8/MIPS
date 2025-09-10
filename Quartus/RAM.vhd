@@ -64,7 +64,7 @@ BEGIN
 	GENERIC MAP (
 		clock_enable_input_a => "BYPASS",
 		clock_enable_output_a => "BYPASS",
-		init_file => "../../Documents_Provided/Deliverable4.mif",
+		init_file => "../VHDL/MyMIF.mif",
 		intended_device_family => "MAX 10",
 		lpm_hint => "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=RAM0",
 		lpm_type => "altsyncram",

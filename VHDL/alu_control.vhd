@@ -1,4 +1,5 @@
 -- Noah White
+-- Notes: Get Chat to make you a mif file to test all these instructions you've already done
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -68,9 +69,9 @@ begin
                         OpSel       <= X"19";
                         HI_en       <= '1';
                         LO_en       <= '1';
-                    when "010000" =>                                -- Move from HI register
+                    when "010000" =>                                -- Move from HI register (need to delay 1 cycle)
                         ALU_LO_HI   <= "10";
-                    when "010010" =>                                -- Move from LO register
+                    when "010010" =>                                -- Move from LO register (need to delay 1 cycle)
                         ALU_LO_HI   <= "01";
                     
 

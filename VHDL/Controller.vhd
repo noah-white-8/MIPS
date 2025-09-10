@@ -24,6 +24,7 @@ entity Controller is
         clk                     : in std_logic;
         rst                     : in std_logic;
         IR31to26                : in std_logic_vector(5 downto 0); -- The OP Code I believe
+        IR5to0                  : in std_logic_vector(5 downto 0); -- For MFHI & MFLO
         PCWriteCond             : out std_logic;
         PCWrite                 : out std_logic;
         IorD                    : out std_logic;
@@ -77,7 +78,7 @@ begin
         IsSigned    <= '1';
         ALUSrcA     <= '0';
         ALUSrcB     <= "00";
-        ALUOp       <= IR31to26;    -- OP Code (could use others => '1' as a default but I think IR31to26 is a better default)
+        ALUOp       <= (others => '1');    -- OP Code (could use others => '1' as a default but I think IR31to26 is a better default)
         PCSource    <= "00";
 
         next_state <= state_r;
@@ -116,12 +117,11 @@ begin
                         ALUSrcB     <= "00";            
                         next_state  <= R_TYPE;
 
-                    when "001001" =>            -- 0x09 for ADDIU (IsSigned default is '1')
+                    when "001001" =>             -- 0x09 for ADDIU (IsSigned default is '1')
                         ALUOp       <= "001111"; -- 0x0F tells ALU_Control to do an ADD (just like PC+4)
                         ALUSrcA     <= '1';
                         ALUSrcB     <= "10";
                         next_state  <= I_TYPE;
-
                     when others => null;
                 end case;
 
@@ -131,6 +131,15 @@ begin
                 RegDst      <= '1';
                 RegWrite    <= '1';
                 next_state  <= START;
+
+                -- The following case block is for MFHI & MFLO instructions
+                case (IR5to0) is
+                    when "010000" =>                    -- MFHI
+                        ALUOp   <= (others => '0');
+                    when "010010" =>                    -- MFLO
+                        ALUOp   <= (others => '0');
+                    when others => null;
+                end case;
 
             when I_TYPE =>
                 MemToReg    <= '0';

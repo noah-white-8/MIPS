@@ -27,6 +27,7 @@ entity Datapath is
         button_input        : in std_logic_vector(1 downto 0);
         switch_input        : in std_logic_vector(9 downto 0);
         IR31to26            : out std_logic_vector(5 downto 0);
+        IR5to0              : out std_logic_vector(5 downto 0);
         --PC_source           : out std_logic_vector(WIDTH-1 downto 0);
         branch_taken        : out std_logic;
         outport_data        : out std_logic_vector(WIDTH-1 downto 0)
@@ -177,6 +178,7 @@ begin
     inport0_en <= '1' when (button_input(0) = '1' and switch_input(9) = '0') else '0';
     inport1_en <= '1' when (button_input(0) = '1' and switch_input(9) = '1') else '0';
     IR31to26 <= IROut(31 downto 26);
+    IR5to0   <= IROut(5 downto 0);
     rst <= button_input(1);
     
     -- PORT mapping and other stuff and whatnot (lhs is component, rhs is local)
