@@ -22,6 +22,9 @@
 --      - Skip ahead to adding one I-type instruction like ori or addi so can load regfile with stuff
 --      - Test integration with .mif file. Potentially test individuals like alu, etc. with individual testbenches if needed
 --      - Get Chat to write you a .mif file to test all the instructions you have so far now that you have immediates
+--
+--      10/6/25: NEXT STEP
+--      - Make sure the lines after "MFHI r9...04 : 00004810;" in MyMIF.mif are encoded correctly
 
 
 LIBRARY ieee;

@@ -1,3 +1,5 @@
+-- ENCODING: Verified to "04 : 00004810" (I believe)
+
 Depth = 256;
 Width = 32;
 Address_radix = hex;
