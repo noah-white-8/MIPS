@@ -1,4 +1,4 @@
--- ENCODING: Verified to "04 : 00004810" (I believe)
+-- VERIFICATION: Encoding Verified to "10 : 24230008;" (I believe)
 
 Depth = 256;
 Width = 32;
@@ -11,68 +11,67 @@ Content
 -- lw $reg1, 30($ZERO)
 -- $reg1 = 0000 000C
 -- OG Line: 00 : 8C0100C0;
--- NEW Line: 00 : ADDIU r1, r2, 0x04 (Add 4 to r1 and store result in r2)
+-- NEW Line: 00 : ADDIU r2, r1, 0x04 (Add 4 to r1 and store result in r2) (Encoding verified) (Test comment here)
 00 : 24220004;
 
--- ADDIU r1, r3, 0x07
+-- ADDIU r3, r1, 0x07 (r3 = 7) (Encoding verified) (Test comment here)
 01 : 24230007;
 
 -- Insert all kinds of instructions you haven't tested yet here
 -- Test mult signed & unsinged 1st, then MFHI & MFLO 
 -- Then test all the previous R-type instructions you've done with different numbers and stuff
 
--- MULTU r2, r3
+-- MULTU r2, r3 (regs HI and LO = r2 x r3) (Encoding verified) (Test comment here)
 02 : 00430019;
 
--- MFLO r8
+-- MFLO r8      (r8 = LO)                  (Encoding verified) (Test comment here)
 03 : 00004012;
 
--- MFHI r9
+-- MFHI r9      (r9 = HI)                  (Encoding verified) (Test comment here)
 04 : 00004810;
 
--- Insert instructions here for set on less than signed & unsigned, shift right & left logical and shift right arithmetic
--- Insert instructions here for XOR, OR, AND, ADDU, and SUBU
 -- The above is all for testing purposes
 
--- SLT r8, r2, r3   (r8 = 1 if r2 < r3 signed)
+
+-- SLT r8, r2, r3   (r8 = 1 if r2 < r3 signed) (Encoding verified) (Test comment here)
 05 : 0043402A;
 
--- SLTU r9, r2, r3  (r9 = 1 if r2 < r3 unsigned)
+-- SLTU r9, r2, r3  (r9 = 1 if r2 < r3 unsigned) (Encoding verified) (Test comment here)
 06 : 0043482B;
 
--- SLL r8, r3, 2    (r8 = r3 << 2)
+-- SLL r8, r3, 2    (r8 = r3 << 2) (Encoding verified) (Test comment here)
 07 : 00034080;
 
--- SRL r9, r3, 2    (r9 = r3 >> 2 logical)
+-- SRL r9, r3, 2    (r9 = r3 >> 2 logical) (Encoding verified) (Test comment here)
 08 : 00034882;
 
--- SRA r8, r3, 2    (r8 = r3 >> 2 arithmetic)
+-- SRA r8, r3, 2    (r8 = r3 >> 2 arithmetic) (Encoding verified) (Test comment here)
 09 : 00034083;
 
--- XOR r8, r2, r3
+-- XOR r8, r2, r3   (Encoding verified) (Test comment here)
 0A : 00434026;
 
--- OR r9, r2, r3
+-- OR r9, r2, r3    (Encoding verified) (Test comment here)
 0B : 00434825;
 
--- AND r8, r2, r3
+-- AND r8, r2, r3   (Encoding verified) (Test comment here)
 0C : 00434024;
 
--- ADDU r8, r2, r3
+-- ADDU r8, r2, r3  (Encoding verified) (Test comment here)
 0D : 00434021;
 
--- SUBU r9, r2, r3
+-- SUBU r9, r2, r3  (Encoding verified) (Test comment here)
 0E : 00434823;
 
--- ADDIU r1, r2, 0x05
+-- ADDIU r2, r1, 0x05 (Encoding verified) (Test comment here)
 0F : 24220005;
 
--- ADDIU r1, r3, 0x08
+-- ADDIU r3, r1, 0x08 (Encoding verified) (Test comment here)
 10 : 24230008;
 
 
 
-11 : FC000000; -- halt execution (change 0A to whatever it needs to be so it's next)
+11 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next)
 
 30 : 0000000C;
 3C : FAFAFAFA;
