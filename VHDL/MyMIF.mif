@@ -1,4 +1,5 @@
 -- VERIFICATION: Encoding Verified to "10 : 24230008;" (I believe)
+-- TESTING: All instructions simulated and working up to "10 : 24230008;" 
 
 Depth = 256;
 Width = 32;
@@ -11,67 +12,67 @@ Content
 -- lw $reg1, 30($ZERO)
 -- $reg1 = 0000 000C
 -- OG Line: 00 : 8C0100C0;
--- NEW Line: 00 : ADDIU r2, r1, 0x04 (Add 4 to r1 and store result in r2) (Encoding verified) (Test comment here)
+-- NEW Line: 00 : ADDIU r2, r1, 0x04 (Add 4 to r1 and store result in r2) (Encoding verified) (Simulated and works)
 00 : 24220004;
 
--- ADDIU r3, r1, 0x07 (r3 = 7) (Encoding verified) (Test comment here)
+-- ADDIU r3, r1, 0x07 (r3 = 7) (Encoding verified) (Simulated and works)
 01 : 24230007;
 
 -- Insert all kinds of instructions you haven't tested yet here
 -- Test mult signed & unsinged 1st, then MFHI & MFLO 
 -- Then test all the previous R-type instructions you've done with different numbers and stuff
 
--- MULTU r2, r3 (regs HI and LO = r2 x r3) (Encoding verified) (Test comment here)
+-- MULTU r2, r3 (regs HI and LO = r2 x r3) (Encoding verified) (Simulated and works)
 02 : 00430019;
 
--- MFLO r8      (r8 = LO)                  (Encoding verified) (Test comment here)
+-- MFLO r8      (r8 = LO)                  (Encoding verified) (Simulated and works)
 03 : 00004012;
 
--- MFHI r9      (r9 = HI)                  (Encoding verified) (Test comment here)
+-- MFHI r9      (r9 = HI)                  (Encoding verified) (Simulated and works)
 04 : 00004810;
 
 -- The above is all for testing purposes
 
 
--- SLT r8, r2, r3   (r8 = 1 if r2 < r3 signed) (Encoding verified) (Test comment here)
+-- SLT r8, r2, r3   (r8 = 1 if r2 < r3 signed) (Encoding verified) (Simulated and works)
 05 : 0043402A;
 
--- SLTU r9, r2, r3  (r9 = 1 if r2 < r3 unsigned) (Encoding verified) (Test comment here)
+-- SLTU r9, r2, r3  (r9 = 1 if r2 < r3 unsigned) (Encoding verified) (Simulated and works)
 06 : 0043482B;
 
--- SLL r8, r3, 2    (r8 = r3 << 2) (Encoding verified) (Test comment here)
+-- SLL r8, r3, 2    (r8 = r3 << 2) (Encoding verified) (Simulated and works)
 07 : 00034080;
 
--- SRL r9, r3, 2    (r9 = r3 >> 2 logical) (Encoding verified) (Test comment here)
+-- SRL r9, r3, 2    (r9 = r3 >> 2 logical) (Encoding verified) (Simulated and works)
 08 : 00034882;
 
--- SRA r8, r3, 2    (r8 = r3 >> 2 arithmetic) (Encoding verified) (Test comment here)
+-- SRA r8, r3, 2    (r8 = r3 >> 2 arithmetic) (Encoding verified) (Simulated and works)
 09 : 00034083;
 
--- XOR r8, r2, r3   (Encoding verified) (Test comment here)
+-- XOR r8, r2, r3   (Encoding verified) (Simulated and works)
 0A : 00434026;
 
--- OR r9, r2, r3    (Encoding verified) (Test comment here)
+-- OR r9, r2, r3    (Encoding verified) (Simulated and works)
 0B : 00434825;
 
--- AND r8, r2, r3   (Encoding verified) (Test comment here)
+-- AND r8, r2, r3   (Encoding verified) (Simulated and works)
 0C : 00434024;
 
--- ADDU r8, r2, r3  (Encoding verified) (Test comment here)
+-- ADDU r8, r2, r3  (Encoding verified) (Simulated and works)
 0D : 00434021;
 
--- SUBU r9, r2, r3  (Encoding verified) (Test comment here)
+-- SUBU r9, r2, r3  (Encoding verified) (Simulated and works)
 0E : 00434823;
 
--- ADDIU r2, r1, 0x05 (Encoding verified) (Test comment here)
+-- ADDIU r2, r1, 0x05 (r2 = 5) (Encoding verified) (Simulated and works)
 0F : 24220005;
 
--- ADDIU r3, r1, 0x08 (Encoding verified) (Test comment here)
+-- ADDIU r3, r1, 0x08 (r3 = 8) (Encoding verified) (Simulated and works)
 10 : 24230008;
 
 
 
-11 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next)
+11 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
 
 30 : 0000000C;
 3C : FAFAFAFA;
