@@ -1,5 +1,5 @@
 -- VERIFICATION: Encoding Verified to "10 : 24230008;" (I believe)
--- TESTING: All instructions simulated and working up to "10 : 24230008;" 
+-- TESTING: All instructions simulated and working as of most recent update
 
 Depth = 256;
 Width = 32;
@@ -18,9 +18,8 @@ Content
 -- ADDIU r3, r1, 0x07 (r3 = 7) (Encoding verified) (Simulated and works)
 01 : 24230007;
 
--- Insert all kinds of instructions you haven't tested yet here
--- Test mult signed & unsinged 1st, then MFHI & MFLO 
 -- Then test all the previous R-type instructions you've done with different numbers and stuff
+
 
 -- MULTU r2, r3 (regs HI and LO = r2 x r3) (Encoding verified) (Simulated and works)
 02 : 00430019;
@@ -70,9 +69,18 @@ Content
 -- ADDIU r3, r1, 0x08 (r3 = 8) (Encoding verified) (Simulated and works)
 10 : 24230008;
 
+-- ANDI r8, r2, 0x04 (r8 = r2 AND 0x04) (Encoding initial write) (Simulation and works)
+11 : 30480004;
+
+-- ORI r8, r2, 0x02 (r8 = r2 OR 0x02) (Encoding initial write) (Simulation and works)
+12 : 34480002;
+
+-- XORI r8, r2, 0x03 (r8 = r2 XOR 0x03) (Encoding initial write) (Simulation and works)
+13 : 38480003;
 
 
-11 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
+
+14 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
 
 30 : 0000000C;
 3C : FAFAFAFA;

@@ -80,7 +80,22 @@ begin
 
             when "001111" =>                                        -- ADD 4 to PC (and for ADDIU)
                 OpSel   <= X"21";                                   -- For ALU ADD
-        
+
+            when "001100" =>                                        -- For ANDI
+                OpSel       <= X"24";
+
+            when "001101" =>                                        -- For ORI
+                OpSel       <= X"25";
+
+            when "001110" =>                                        -- For XORI
+                OpSel       <= X"26";
+
+            when "001010" =>                                        -- For SLTI
+                OpSel       <= X"2A";
+
+            when "001011" =>                                        -- For SLTIU
+                OpSel       <= X"2B";
+
             when others => null;
         end case;
 

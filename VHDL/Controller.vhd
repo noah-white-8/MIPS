@@ -1,5 +1,4 @@
 -- Created by Noah White
--- Last Edit: Noah White on 8/16/25
 --
 -- Description: 
 --      Controller for the MIPS.
@@ -117,11 +116,48 @@ begin
                         ALUSrcB     <= "00";            
                         next_state  <= R_TYPE;
 
+                    -- I-TYPE INSTRUCTIONS START HERE
                     when "001001" =>             -- 0x09 for ADDIU (IsSigned default is '1')
                         ALUOp       <= "001111"; -- 0x0F tells ALU_Control to do an ADD (just like PC+4)
                         ALUSrcA     <= '1';
                         ALUSrcB     <= "10";
                         next_state  <= I_TYPE;
+
+                    when "001100" =>             -- 0x0C for ANDI (change IsSigned to '0' to zero extend)
+                        ALUOp       <= "001100"; -- 0x0C tells ALU_Control to do an AND
+                        IsSigned    <= '0';
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= I_TYPE;
+
+                    when "001101" =>             -- 0x0D for ORI (IsSigned = '0')
+                        ALUOp       <= "001101";
+                        IsSigned    <= '0';
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= I_TYPE;
+
+                    when "001110" =>             -- Ox0E for XORI (IsSigned = '0')
+                        ALUOp       <= "001110";
+                        IsSigned    <= '0';
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= I_TYPE;
+
+                    when "001010" =>             -- 0x0A for SLTI
+                        ALUOp       <= "001010";
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= I_TYPE;
+
+                    when "001011" =>             -- 0x0B for SLTIU
+                        ALUOp       <= "001011";
+                        IsSigned    <= '0';
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= I_TYPE;
+                    -- I-TYPE INSTRUCTIONS END HERE
+                    
                     when others => null;
                 end case;
 
