@@ -46,7 +46,7 @@ end entity Controller;
 
 -- Here in lies the architecture. Oh how beautiful with her gothic walls and gargoyles
 architecture behavioral of Controller is
-    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE);      -- Each STATE reps one CYCLE imma say
+    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE, LW1, LW2, LW3, SW);      -- Each STATE reps one CYCLE imma say
     signal state_r, next_state : state_t;
     
 begin
@@ -157,6 +157,20 @@ begin
                         ALUSrcB     <= "10";
                         next_state  <= I_TYPE;
                     -- I-TYPE INSTRUCTIONS END HERE
+
+                    when "100011" =>                -- 0x23 for LW
+                        ALUOp       <= "001111";    -- For ALU Add (to add base addr to offset)
+                        IsSigned    <= '0';
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= LW1;
+
+                    when "101011" =>                -- 0x2B for SW
+                        ALUOp       <= "001111";    -- For ALU Add (to add base addr to offset)
+                        IsSigned    <= '0';
+                        ALUSrcA     <= '1';
+                        ALUSrcB     <= "10";
+                        next_state  <= SW;
                     
                     when others => null;
                 end case;
@@ -181,6 +195,26 @@ begin
                 MemToReg    <= '0';
                 RegDst      <= '0';
                 RegWrite    <= '1';
+                next_state  <= START;
+
+            when LW1 =>
+                IorD        <= '1';
+                MemRead     <= '1';
+                next_state  <= LW2;
+
+            when LW2 =>
+                -- Do nothing lol (let data read be registered into the mem data reg)
+                next_state <= LW3;
+            
+            when LW3 =>
+                MemToReg    <= '1';
+                RegDst      <= '0';
+                RegWrite    <= '1';
+                next_state  <= START;
+
+            when SW =>
+                IorD        <= '1';
+                MemWrite    <= '1';
                 next_state  <= START;
 
             when others => null;

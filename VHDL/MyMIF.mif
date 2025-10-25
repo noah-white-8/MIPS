@@ -78,18 +78,25 @@ Content
 -- XORI r8, r2, 0x03 (r8 = r2 XOR 0x03) (Encoding initial write) (Simulation and works)
 13 : 38480003;
 
--- SLTI r8, r2, 0x07 (r8 = r2 < 0x07) (Encoding initial write) (Not simulated yet)
+-- SLTI r8, r2, 0x07 (r8 = r2 < 0x07) (Encoding initial write) (Simulated and works)
 14 : 28480007;
 
--- SLTI r8, r2, 0x03 (r8 = r2 < 0x03) (Encoding initial write) (Not simulated yet)
+-- SLTI r8, r2, 0x03 (r8 = r2 < 0x03) (Encoding initial write) (Simulated and works)
 15 : 28480003;
 
--- SLTIU r9, r2, 0x06 (r9 = r2 < 0x06) (Encoding initial write) (Not simulated yet)
+-- SLTIU r9, r2, 0x06 (r9 = r2 < 0x06) (Encoding initial write) (Simulated and works)
 16 : 2C490006;
 
+-- ADDIU r8, r1, 0x20 (r8 = 0x20) (Encoding initial write) (Not simulated yet)
+17 : 24280020;
 
+-- SW r3, 0xA(r8) (Store r3 to address specified by r8 + 0xA) (Encoding initial write) (Not simulated yet)
+18 : AD03000A;
 
-17 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
+-- LW r9, 0xA(r8) (Load the data at address r8 + 0xA into r9) (Encoding initial write) (Not simulated yet)
+19 : 8D09000A;
+
+1A : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
 
 30 : 0000000C;
 3C : FAFAFAFA;
