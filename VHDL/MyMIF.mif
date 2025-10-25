@@ -78,9 +78,18 @@ Content
 -- XORI r8, r2, 0x03 (r8 = r2 XOR 0x03) (Encoding initial write) (Simulation and works)
 13 : 38480003;
 
+-- SLTI r8, r2, 0x07 (r8 = r2 < 0x07) (Encoding initial write) (Not simulated yet)
+14 : 28480007;
+
+-- SLTI r8, r2, 0x03 (r8 = r2 < 0x03) (Encoding initial write) (Not simulated yet)
+15 : 28480003;
+
+-- SLTIU r9, r2, 0x06 (r9 = r2 < 0x06) (Encoding initial write) (Not simulated yet)
+16 : 2C490006;
 
 
-14 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
+
+17 : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
 
 30 : 0000000C;
 3C : FAFAFAFA;
