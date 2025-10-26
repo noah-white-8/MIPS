@@ -285,7 +285,7 @@ begin
     U_ALU_IN_MUX1 : mux4to1
     port map(
         d0                  => RegB,
-        d1                  => X"00000004",
+        d1                  => X"00000001",
         d2                  => sign_extend_out,
         d3                  => sign_extend_shifted,
         s                   => ALUSrcB_ctrl,

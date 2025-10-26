@@ -87,7 +87,7 @@ begin
     );
 
     U_RAM: RAM port map(
-        address             => addr(9 downto 2),
+        address             => addr(7 downto 0),
         clock               => clk,
         data                => wrData,
         rden                => rd_en,
