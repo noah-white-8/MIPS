@@ -96,9 +96,15 @@ Content
 -- LW r9, 0xA(r8) (Load the data at address r8 + 0xA into r9) (Encoding initial write) (Simulated and works)
 19 : 8D09000A;
 
+-- J 0x14 (Jump to addr 0x14) (Encoding initial write) (Simulated and works)
+-- 1A : 08000014;
+
+-- JR r3 (Jump to the addr stored in r3) (Encoding initial write) (Simulated and works)
+1A : 00600008;
 
 
-1A : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
+
+1B : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
 
 30 : 0000000C;
 3C : FAFAFAFA;

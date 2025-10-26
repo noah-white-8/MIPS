@@ -116,6 +116,14 @@ begin
                         ALUSrcB     <= "00";            
                         next_state  <= R_TYPE;
 
+                        case (IR5to0) is 
+                            when "001000" =>     -- Jump register JR instruction
+                                PCSource    <= "00";
+                                PCWrite     <= '1';
+                                next_state  <= START;
+                            when others => null;
+                        end case;  
+
                     -- I-TYPE INSTRUCTIONS START HERE
                     when "001001" =>             -- 0x09 for ADDIU (IsSigned default is '1')
                         ALUOp       <= "001111"; -- 0x0F tells ALU_Control to do an ADD (just like PC+4)
@@ -171,6 +179,11 @@ begin
                         ALUSrcA     <= '1';
                         ALUSrcB     <= "10";
                         next_state  <= SW;
+
+                    when "000010" =>                -- 0x02 for J (Jump instruction)
+                        PCSource    <= "10";
+                        PCWrite     <= '1';
+                        next_state  <= START;
                     
                     when others => null;
                 end case;

@@ -73,7 +73,8 @@ begin
                         ALU_LO_HI   <= "10";
                     when "010010" =>                                -- Move from LO register (need to delay 1 cycle)
                         ALU_LO_HI   <= "01";
-                    
+                    when "001000" =>                                -- For Jump register instruction
+                        OpSel       <= X"08";
 
                     when others => null;
                 end case;

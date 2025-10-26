@@ -330,7 +330,8 @@ begin
         output              => HI_r
     );
 
-    IR25to0_shifted <= PC_output(31 downto 28) & IROut(25 downto 0) & "00";
+    -- IR25to0_shifted <= PC_output(31 downto 28) & IROut(25 downto 0) & "00";
+    IR25to0_shifted <= PC_output(31 downto 26) & IROut(25 downto 0);
     U_MUX_PCSource : mux4to1
     port map(
         d0                  => ALU_Result,
