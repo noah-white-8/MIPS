@@ -97,6 +97,9 @@ begin
             when "001011" =>                                        -- For SLTIU
                 OpSel       <= X"2B";
 
+            when "000011" =>                                        -- For JAL
+                OpSel       <= X"08";
+
             when others => null;
         end case;
 

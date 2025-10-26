@@ -87,7 +87,7 @@ begin
                 else
                     branch_taken <= '0';
                 end if;
-            when X"08" =>                           -- Pass through inputA to output (for jump register instruction)
+            when X"08" =>                           -- Pass through inputA to output (for jump register & JAL instructions)
                 result <= inputA;
             when others =>
                 branch_taken <= '0';

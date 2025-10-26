@@ -40,7 +40,7 @@ begin
             end loop;
         elsif (rising_edge(clk)) then
             if (wr_en = '1') then
-                regs(to_integer(unsigned(wr_addr))) <= wr_data;
+                regs(to_integer(unsigned(wr_addr))) <= wr_data; -- Would need to change this so only happens when JAL = '0' for accuracy but doesn't matter here I'd say because wr_addr should be "00000" in our JAL cases. Actually don't need to do this because we are just not going to assert wr_en on JAL cases
 					 regs(0) <= (others => '0');
             end if;
             if(JumpAndLink = '1') then

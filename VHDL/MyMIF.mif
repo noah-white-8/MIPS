@@ -90,21 +90,40 @@ Content
 -- ADDIU r8, r1, 0x20 (r8 = 0x20) (Encoding initial write) (Simulated and works)
 17 : 24280020;
 
+-- JAL 0x27 (Jumps to 0x27 & stores return addr in r31) (Encoding initial write) (Simulated and works)
+18 : 0C000027;
+
 -- SW r3, 0xA(r8) (Store r3 to address specified by r8 + 0xA) (Encoding initial write) (Simulated and works)
-18 : AD03000A;
+19 : AD03000A;
 
 -- LW r9, 0xA(r8) (Load the data at address r8 + 0xA into r9) (Encoding initial write) (Simulated and works)
-19 : 8D09000A;
+1A : 8D09000A;
+
+
 
 -- J 0x14 (Jump to addr 0x14) (Encoding initial write) (Simulated and works)
 -- 1A : 08000014;
 
--- JR r3 (Jump to the addr stored in r3) (Encoding initial write) (Simulated and works)
-1A : 00600008;
+-- JR r31 (Jump to the addr stored in r31) (Encoding initial write) (Simulated and works)
+-- 1A : 03E00008;
 
 
 
 1B : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
+
+
+
+-- FUNCTION TEST BELOW: From instruction 27 to 29
+-- ADDIU r2, r1, 0x0B (BEGINNING OF FUNCTION) (r2 = 0x0B) (Encoding initial write) (Simulated and works)
+27 : 2422000B;
+
+-- ADDIU r2, r1, 0x02 (r2 = 0x02) (Encoding initial write) (Simulated and works)
+28 : 24220002;
+
+-- JR r31 (END OF FUNCTION) (Jump to the addr stored in r31) (Encoding initial write) (Simulated and works)
+29 : 03E00008;
+
+
 
 30 : 0000000C;
 3C : FAFAFAFA;

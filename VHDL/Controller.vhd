@@ -11,8 +11,7 @@
 --
 -- NEXT STEPS (Updated 8/15/25):
 --      - In top_level.vhd file
---      - Add a instruction decode cycle for the controller (don't know that you really need this as you'll just decode IR31to26 later)
---      - - Might could use a INSTRUCTION TYPE class like is it R_type, etc.
+--      - Might could use a INSTRUCTION TYPE class like is it R_type, etc.
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
@@ -46,7 +45,7 @@ end entity Controller;
 
 -- Here in lies the architecture. Oh how beautiful with her gothic walls and gargoyles
 architecture behavioral of Controller is
-    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE, LW1, LW2, LW3, SW);      -- Each STATE reps one CYCLE imma say
+    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE, LW1, LW2, LW3, SW, JAL1, JAL2);      -- Each STATE reps one CYCLE imma say
     signal state_r, next_state : state_t;
     
 begin
@@ -184,6 +183,11 @@ begin
                         PCSource    <= "10";
                         PCWrite     <= '1';
                         next_state  <= START;
+
+                    when "000011" =>                -- 0x03 for JAL (Jump and Link)
+                        ALUOp       <= "000011";
+                        ALUSrcA     <= '0';
+                        next_state  <= JAL1;
                     
                     when others => null;
                 end case;
@@ -229,6 +233,18 @@ begin
                 IorD        <= '1';
                 MemWrite    <= '1';
                 next_state  <= START;
+
+            when JAL1 =>                    -- Stores PC value to r31
+                MemToReg    <= '0';
+                JumpAndLink <= '1';
+                next_state  <= JAL2;
+
+            when JAL2 =>                    -- Jumps to specified place(same as JUMP instruction)
+                PCSource    <= "10";
+                PCWrite     <= '1';
+                next_state  <= START;
+
+
 
             when others => null;
         end case;
