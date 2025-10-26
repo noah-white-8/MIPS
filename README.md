@@ -31,7 +31,7 @@ Simulation Steps
 8. Click Simulate -> Restart or Simulate -> End Simulation when you would like to restart or end the simulation
 
 ### Notes
-- Docs/Deliverable4.mif is currently the file used for RAM memory initialization and contains the instructions to be executed. Functionality can be verified through simulation
+- VHDL/MyMIF.mif is currently the file used for RAM memory initialization and contains the instructions to be executed. Functionality can be verified through simulation
 
 - This project is still under development and may not function as intended at this point in time
 
