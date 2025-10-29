@@ -32,6 +32,3 @@ Simulation Steps
 
 ### Notes
 - VHDL/MyMIF.mif is currently the file used for RAM memory initialization and contains the instructions to be executed. Functionality can be verified through simulation
-
-- This project is still under development and may not function as intended at this point in time
-
