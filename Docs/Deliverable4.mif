@@ -8,13 +8,13 @@ Content
 
 -- lw $reg1, 30($ZERO)
 -- $reg1 = 0000 000C
-00 : 8C0100C0;
+00 : 8C010030;
 
 -- lw $reg2, 3C($ZERO)
 -- $reg2 = FAFA FAFA
-01 : 8C0200F0;
+01 : 8C02003C;
 
--- lw $reg8, FFF8($ZERO)
+-- lw $reg8, FFF8($ZERO) (this involves inport(s)/Outport)
 -- $reg8 = 0000 01FF
 02 : 8C08FFF8;
 
@@ -42,9 +42,9 @@ Content
 
 -- sw $reg4, E($ZERO)
 -- 0E: FAFA FA50
-08 : AC040038;
+08 : AC04000E;
 
--- sw $reg5, FFFC($ZERO)
+-- sw $reg5, FFFC($ZERO) (involves the inport(s)/Outport)
 -- Outport = C3C3C3B8
 09 : AC05FFFC;
 

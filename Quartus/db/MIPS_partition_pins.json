@@ -4,6 +4,134 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "outport_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[16]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[17]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[18]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[19]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[20]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[21]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[22]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[23]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[24]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[25]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[26]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[27]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[28]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[29]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[30]",
+					"strict" : false
+				},
+				{
+					"name" : "outport_data[31]",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
 					"strict" : false
 				},
@@ -12,7 +140,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "switch_input[0]",
+					"name" : "switch_input[4]",
 					"strict" : false
 				},
 				{
@@ -24,6 +152,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "switch_input[3]",
+					"strict" : false
+				},
+				{
 					"name" : "switch_input[2]",
 					"strict" : false
 				},
@@ -32,11 +164,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "switch_input[3]",
-					"strict" : false
-				},
-				{
-					"name" : "switch_input[4]",
+					"name" : "switch_input[0]",
 					"strict" : false
 				},
 				{

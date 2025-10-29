@@ -30,3 +30,19 @@ Exception c0000005 has occurred at address 6dc8f8af. Traceback:
 StackWalk failed 299
 # End of Stack Trace
 
+# Current time Sat Oct 25 21:11:08 2025
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 6d54f8af. Traceback:
+# 0    0x6d54f8af: 'Tk_UpdatePointer + 0x641f'
+# 1    0x6d5510db: 'Tk_GetSelection + 0x12b'
+# 2    0x6d4ede8b: 'TkClipInit + 0x95b'
+# 3    0x6d6639f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+

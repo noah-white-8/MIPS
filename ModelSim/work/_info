@@ -10,11 +10,11 @@ z2
 cModel Technology
 dC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Week1/Deliverable3/ModelSim
 Ealu
-Z0 w1753483519
+Z0 w1761695657
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 604
+!i122 1230
 Z4 dC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/ModelSim
 Z5 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd
 Z6 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd
@@ -24,9 +24,9 @@ VQNnjV_W2@EPm]ckfQKC?g3
 !s100 54ZmMzW9:`[Neba;Li2Th1
 Z8 OV;C;2020.1;71
 32
-Z9 !s110 1755463746
+Z9 !s110 1761706246
 !i10b 1
-Z10 !s108 1755463746.000000
+Z10 !s108 1761706246.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd|
 Z12 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd|
 !i113 1
@@ -37,11 +37,11 @@ R1
 R2
 R3
 DEx4 work 3 alu 0 22 QNnjV_W2@EPm]ckfQKC?g3
-!i122 604
+!i122 1230
 l32
-L29 57
-Voz=Yb[Ozm<feDU4d:[0@G2
-!s100 ;]>Y[SM1o4Ka1<88[JJgW0
+L29 95
+VNl6bN;8YQ0E_BLfOQc=o;3
+!s100 CkXBIAWAh<9>AFY4RJZR=0
 R8
 32
 R9
@@ -53,18 +53,18 @@ R12
 R13
 R14
 Ealu_control
-Z15 w1755402071
+Z15 w1761695649
 R1
 R2
 R3
-!i122 605
+!i122 1231
 R4
 Z16 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd
 Z17 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd
 l0
-L7 1
-V=JdO;6>?ZPl2FEaM5MDYh1
-!s100 52T35Dh]z6_]6R@><YAc;1
+L8 1
+VfN?KX9gMR8CC[f63]o=aB0
+!s100 dgc??[?1gfAgJh`U1Z;UB2
 R8
 32
 R9
@@ -79,12 +79,12 @@ Abehavioral
 R1
 R2
 R3
-Z20 DEx4 work 11 alu_control 0 22 =JdO;6>?ZPl2FEaM5MDYh1
-!i122 605
-l22
-L20 35
-V]F7nL;Dd_NfCL6k?VTl<G1
-!s100 OZS1Pf13zHk9oB02gd^MW3
+Z20 DEx4 work 11 alu_control 0 22 fN?KX9gMR8CC[f63]o=aB0
+!i122 1231
+l23
+L21 108
+VbdV^i;?^7gCZ_Gf7YkK>33
+!s100 WPJlFe^kkR<2f;Nl^eXzO2
 R8
 32
 R9
@@ -139,18 +139,18 @@ R27
 R13
 R14
 Econtroller
-Z29 w1755410142
+Z29 w1761695606
 R1
 R2
 R3
-!i122 606
+!i122 1232
 R4
 Z30 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd
 Z31 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd
 l0
-L22 1
-Vcza_ELQD<g;b1TY@mE]]90
-!s100 GOHVdDi_b8TLH4IUI:En72
+L20 1
+VO<BJ;b@PKVUKmCEP>?^>?1
+!s100 HD4zTE;^7ZlKm;X43lfMk2
 R8
 32
 R9
@@ -165,12 +165,12 @@ Abehavioral
 R1
 R2
 R3
-Z34 DEx4 work 10 controller 0 22 cza_ELQD<g;b1TY@mE]]90
-!i122 606
-l52
-L48 91
-VKh]1?<hQ[XWcNbIn1LDS20
-!s100 O<Qd6jjhUPgni5SB?^6GP0
+Z34 DEx4 work 10 controller 0 22 O<BJ;b@PKVUKmCEP>?^>?1
+!i122 1232
+l51
+L47 267
+V<zI4IMJM72dMH3D>S:J^o3
+!s100 lMhoHjDBK24kW^60^nM7T0
 R8
 32
 R9
@@ -182,18 +182,18 @@ R33
 R13
 R14
 Edatapath
-Z35 w1755391716
+Z35 w1761454395
 R1
 R2
 R3
-!i122 607
+!i122 1233
 R4
 Z36 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd
 Z37 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd
 l0
 L8 1
-V;DMFk;dMe0S5=K4e6k9j51
-!s100 ?cg9=WaiM7CM3oLl2XGal1
+VIGFmB_f;M1aZ^hEAhUa6T2
+!s100 @FXAh0j1[d;zeJ<SZI[je2
 R8
 32
 R9
@@ -208,12 +208,12 @@ Astructural
 R1
 R2
 R3
-Z40 DEx4 work 8 datapath 0 22 ;DMFk;dMe0S5=K4e6k9j51
-!i122 607
-l176
-L37 327
-V[IUYWVIi@h=GJ3cn5I>DI3
-!s100 zjBh<dR4Vg7;QKN?Ui>MV2
+Z40 DEx4 work 8 datapath 0 22 IGFmB_f;M1aZ^hEAhUa6T2
+!i122 1233
+l177
+L38 329
+VGgAA`>;8JO[Mf=TbWdOfZ2
+!s100 W2bT<60ko51C`koAehVU61
 R8
 32
 R9
@@ -229,7 +229,7 @@ Z41 w1744787168
 R1
 R2
 R3
-!i122 608
+!i122 1234
 R4
 Z42 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd
 Z43 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd
@@ -239,11 +239,11 @@ V7hee:aVU<RoJn4dWIgG[33
 !s100 Z7fJlz]djhYPRQ6RA1lcb3
 R8
 32
-Z45 !s110 1755463747
+R9
 !i10b 1
 R10
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd|
-Z47 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd|
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd|
+Z46 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd|
 !i113 1
 R13
 R14
@@ -252,41 +252,41 @@ R1
 R2
 R3
 DEx4 work 12 enable_logic 0 22 7hee:aVU<RoJn4dWIgG[33
-!i122 608
+!i122 1234
 l24
 L22 27
 VU9OC;mEEEdGJlRL0`eea22
 !s100 1BN2F4nKT6N6]4bG0Bg5i1
 R8
 32
-R45
+R9
 !i10b 1
 R10
+R45
 R46
-R47
 !i113 1
 R13
 R14
 Ememory_top_level
-Z48 w1745344157
+Z47 w1761443131
 R1
 R2
 R3
-!i122 609
+!i122 1235
 R4
-Z49 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd
-Z50 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd
+Z48 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd
+Z49 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd
 l0
 L8 1
 V7F]RXXY0=7hj[eWAMW0PU3
 !s100 L6__[J2G4JS557ZCc<bj>2
 R8
 32
-R45
+R9
 !i10b 1
-Z51 !s108 1755463747.000000
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd|
-Z53 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd|
+R10
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd|
+Z51 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd|
 !i113 1
 R13
 R14
@@ -295,41 +295,41 @@ R1
 R2
 R3
 DEx4 work 16 memory_top_level 0 22 7F]RXXY0=7hj[eWAMW0PU3
-!i122 609
+!i122 1235
 l79
 L27 109
-Ve:gg=gfR8G91]3B8>cJA=1
-!s100 6KWT`XUc=EJ1kS6I;`:DR2
+VUgiSZoL<S<:=^QEk[mB^i0
+!s100 =2W2`YjHJL5<a7Pi^hAId1
 R8
 32
-R45
+R9
 !i10b 1
+R10
+R50
 R51
-R52
-R53
 !i113 1
 R13
 R14
 Emux2to1
-Z54 w1744916919
+Z52 w1744916919
 R1
 R2
 R3
-!i122 610
+!i122 1236
 R4
-Z55 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd
-Z56 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd
+Z53 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd
+Z54 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd
 l0
 R44
 VL7KgVi0f7_c:nhG2dlWQc2
 !s100 DO7AC8ni7`n0ZX:oZiD5l1
 R8
 32
-R45
+Z55 !s110 1761706247
 !i10b 1
-R51
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd|
-Z58 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd|
+R10
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd|
+Z57 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux2to1.vhd|
 !i113 1
 R13
 R14
@@ -338,39 +338,39 @@ R1
 R2
 R3
 DEx4 work 7 mux2to1 0 22 L7KgVi0f7_c:nhG2dlWQc2
-!i122 610
+!i122 1236
 l19
 L18 5
 Vm93g4mc`iBU1Hg7oW@:PJ3
 !s100 4oQ2][C>lNR9UL]zg]U1?0
 R8
 32
-R45
+R55
 !i10b 1
-R51
+R10
+R56
 R57
-R58
 !i113 1
 R13
 R14
 Emux4to1
-Z59 w1744784555
+Z58 w1744784555
 R1
 R2
 R3
-!i122 611
+!i122 1237
 R4
-Z60 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd
-Z61 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd
+Z59 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd
+Z60 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd
 l0
 R44
 VNP]2`BPT1A7<`Uzm^<0M81
 !s100 W?W8cKYz0nPoLVaAO[KQY1
 R8
 32
-R45
+R55
 !i10b 1
-R51
+Z61 !s108 1761706247.000000
 Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd|
 Z63 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/mux4to1.vhd|
 !i113 1
@@ -381,16 +381,16 @@ R1
 R2
 R3
 DEx4 work 7 mux4to1 0 22 NP]2`BPT1A7<`Uzm^<0M81
-!i122 611
+!i122 1237
 l18
 L17 10
 V?OUfT55W@]aYz<K2UKP341
 !s100 Z5<Z?WEX95j@^z3<XacTY1
 R8
 32
-R45
+R55
 !i10b 1
-R51
+R61
 R62
 R63
 !i113 1
@@ -401,7 +401,7 @@ Z64 w1748992138
 R1
 R2
 R3
-!i122 612
+!i122 1238
 R4
 Z65 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/PC.vhd
 Z66 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/PC.vhd
@@ -411,9 +411,9 @@ V60zda^F<gn^hYm`<SPMU;3
 !s100 Cg5h7k`9Wg`d^OWF]W<aU2
 R8
 32
-R45
+R55
 !i10b 1
-R51
+R61
 Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/PC.vhd|
 Z68 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/PC.vhd|
 !i113 1
@@ -424,27 +424,27 @@ R1
 R2
 R3
 DEx4 work 2 pc 0 22 60zda^F<gn^hYm`<SPMU;3
-!i122 612
+!i122 1238
 l24
 L22 22
 VEG_5BY=obLoZEkh^dTggm0
 !s100 TAo12>BzljXBTdENU1mIR1
 R8
 32
-R45
+R55
 !i10b 1
-R51
+R61
 R67
 R68
 !i113 1
 R13
 R14
 Eram
-Z69 w1754445212
+Z69 w1761706237
 Z70 DPx9 altera_mf 20 altera_mf_components 0 22 HVLmIbRl@QhXfWVOmhK<j1
 R2
 R3
-!i122 617
+!i122 1243
 R4
 Z71 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd
 Z72 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd
@@ -454,11 +454,11 @@ V0[bR@eMK46A>DXMQDf@kZ0
 !s100 :cQa6hIo_BcBGA^UjzmQE3
 R8
 32
-Z73 !s110 1755463748
+R55
 !i10b 1
-Z74 !s108 1755463748.000000
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd|
-Z76 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd|
+R61
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd|
+Z74 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd|
 !i113 1
 R13
 R14
@@ -467,41 +467,41 @@ R70
 R2
 R3
 DEx4 work 3 ram 0 22 0[bR@eMK46A>DXMQDf@kZ0
-!i122 617
+!i122 1243
 l60
 L56 37
-VHhhmBYBgN[J=Hfc[8A7WZ2
-!s100 z9`;<bkJGCaIZeU@hQhQ`1
+VE2ij<1J72<WTID0LIWPzn1
+!s100 PZRIB9KkR9J]Dhfo]j4>23
 R8
 32
-R73
+R55
 !i10b 1
+R61
+R73
 R74
-R75
-R76
 !i113 1
 R13
 R14
 Ereg
-Z77 w1744789463
+Z75 w1744789463
 R1
 R2
 R3
-!i122 613
+!i122 1239
 R4
-Z78 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd
-Z79 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd
+Z76 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd
+Z77 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd
 l0
 L8 1
 V_[HBTK[mNFkAY1ShPfN>h2
 !s100 ngb`e_zZINP5AM2:1V_CA3
 R8
 32
-R45
+R55
 !i10b 1
-R51
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd|
-Z81 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd|
+R61
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd|
+Z79 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/reg.vhd|
 !i113 1
 R13
 R14
@@ -510,41 +510,41 @@ R1
 R2
 R3
 DEx4 work 3 reg 0 22 _[HBTK[mNFkAY1ShPfN>h2
-!i122 613
+!i122 1239
 l18
 L17 11
 VVik5168^Ql=UgUBlHm_7D3
 !s100 NX9TY_@O[JJOS^C<;3o;61
 R8
 32
-R45
+R55
 !i10b 1
-R51
-R80
-R81
+R61
+R78
+R79
 !i113 1
 R13
 R14
 Eregisterfile
-Z82 w1755045245
+Z80 w1761497630
 R1
 R2
 R3
-!i122 614
+!i122 1240
 R4
-Z83 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd
-Z84 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd
+Z81 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd
+Z82 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd
 l0
 L5 1
 V<HN94aL35C>MVE^1PKePK2
 !s100 h7Je0c0WGC:A48@CaCcU:1
 R8
 32
-R73
+R55
 !i10b 1
-R74
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd|
-Z86 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd|
+R61
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd|
+Z84 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/registerfile.vhd|
 !i113 1
 R13
 R14
@@ -553,41 +553,41 @@ R1
 R2
 R3
 DEx4 work 12 registerfile 0 22 <HN94aL35C>MVE^1PKePK2
-!i122 614
+!i122 1240
 l34
 L30 25
 V2_FEj^3CX0SK7d=baYN;A3
 !s100 =dHX65S;Q1JSRZF1d^cdF0
 R8
 32
-R73
+R55
 !i10b 1
-R74
-R85
-R86
+R61
+R83
+R84
 !i113 1
 R13
 R14
 Esign_extend
-Z87 w1748982153
+Z85 w1748982153
 R1
 R2
 R3
-!i122 615
+!i122 1241
 R4
-Z88 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd
-Z89 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd
+Z86 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd
+Z87 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd
 l0
 L8 1
 Vk96Kf`HGSI:AiUNH<VXdW1
 !s100 ?iCNnBNz9`]:eMZ46M53@2
 R8
 32
-R73
+R55
 !i10b 1
-R74
-Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd|
-Z91 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd|
+R61
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd|
+Z89 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd|
 !i113 1
 R13
 R14
@@ -596,27 +596,27 @@ R1
 R2
 R3
 DEx4 work 11 sign_extend 0 22 k96Kf`HGSI:AiUNH<VXdW1
-!i122 615
+!i122 1241
 l19
 L17 16
 Vb<n>AAN;QbMT2WSWUe]N61
 !s100 N6S3DS:?c2LzGbTgQfV_13
 R8
 32
-R73
+R55
 !i10b 1
-R74
-R90
-R91
+R61
+R88
+R89
 !i113 1
 R13
 R14
 Etb_alu
-Z92 w1755460801
+Z90 w1755460801
 R1
 R2
 R3
-!i122 619
+!i122 1245
 R4
 R22
 R23
@@ -626,9 +626,9 @@ VHi5n6JZ;i6j2i8E@gY>[O0
 !s100 fNEVbP`TU=lhY4N=Gc30g2
 R8
 32
-R73
+Z91 !s110 1761706248
 !i10b 1
-R74
+Z92 !s108 1761706248.000000
 R26
 R27
 !i113 1
@@ -639,16 +639,16 @@ R1
 R2
 R3
 DEx4 work 6 tb_alu 0 22 Hi5n6JZ;i6j2i8E@gY>[O0
-!i122 619
+!i122 1245
 l37
 R28
 VbO3D?=`B2[EY0ATmohaoB0
 !s100 PF73BX>?=DVgL827Shozd0
 R8
 32
-R73
+R91
 !i10b 1
-R74
+R92
 R26
 R27
 !i113 1
@@ -659,7 +659,7 @@ Z93 w1755463632
 R1
 R2
 R3
-!i122 620
+!i122 1246
 R4
 Z94 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd
 Z95 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd
@@ -669,11 +669,11 @@ VS[142X[BI5z>bGAW_3W]K2
 !s100 M8gJfK3;aTMa=aGZ;A4<h2
 R8
 32
-Z96 !s110 1755463749
+R91
 !i10b 1
-Z97 !s108 1755463749.000000
-Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd|
-Z99 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd|
+R92
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd|
+Z97 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_alu_control.vhd|
 !i113 1
 R13
 R14
@@ -682,86 +682,86 @@ R20
 R1
 R2
 R3
-DEx4 work 14 tb_alu_control 0 22 S[142X[BI5z>bGAW_3W]K2
-!i122 620
+Z98 DEx4 work 14 tb_alu_control 0 22 S[142X[BI5z>bGAW_3W]K2
+!i122 1246
 l23
-L12 53
-VO;Cm=Aed_]li8Tihgb@mm0
-!s100 LRQ::K;AA6nncH^F2LMeM2
+Z99 L12 53
+Z100 VO;Cm=Aed_]li8Tihgb@mm0
+Z101 !s100 LRQ::K;AA6nncH^F2LMeM2
 R8
 32
-R96
+R91
 !i10b 1
+R92
+R96
 R97
-R98
-R99
 !i113 1
 R13
 R14
 Etb_controller
-Z100 w1755452467
+Z102 w1755452467
 R1
 R2
 R3
-!i122 621
+!i122 855
 R4
-Z101 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd
-Z102 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd
+Z103 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd
+Z104 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd
 l0
 L9 1
 VhoNlWZi?mKWh?8RVeV1EL3
 !s100 kXXBz4>c637Ma8j>RYZbo1
 R8
 32
-R96
+!s110 1757477915
 !i10b 1
-R97
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd|
-Z104 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd|
+!s108 1757477915.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd|
+Z106 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_Controller.vhd|
 !i113 1
 R13
 R14
 Atb
-R34
+DEx4 work 10 controller 0 22 cza_ELQD<g;b1TY@mE]]90
 R1
 R2
 R3
-Z105 DEx4 work 13 tb_controller 0 22 hoNlWZi?mKWh?8RVeV1EL3
-!i122 621
+DEx4 work 13 tb_controller 0 22 hoNlWZi?mKWh?8RVeV1EL3
+!i122 837
 l37
-Z106 L12 80
-Z107 VnZUga3<KaFXBXenG<Pc4k3
-Z108 !s100 HK=^Ic04nK6@bN3XhACH^3
+L12 80
+VnZUga3<KaFXBXenG<Pc4k3
+!s100 HK=^Ic04nK6@bN3XhACH^3
 R8
 32
-R96
+!s110 1757476564
 !i10b 1
-R97
-R103
-R104
+!s108 1757476564.000000
+R105
+R106
 !i113 1
 R13
 R14
 Etb_top_level
-Z109 w1754502968
+Z107 w1754502968
 R1
 R2
 R3
-!i122 618
+!i122 1244
 R4
-Z110 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd
-Z111 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd
+Z108 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd
+Z109 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd
 l0
 R7
 VWGDJ`9RXS^APoQ]AWS[k[3
 !s100 SV:_;R7ocU`Tg0bnXXYbX3
 R8
 32
-R73
+R91
 !i10b 1
-R74
-Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd|
-Z113 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd|
+R61
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd|
+Z111 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/tb_top_level.vhd|
 !i113 1
 R13
 R14
@@ -770,41 +770,41 @@ R1
 R2
 R3
 DEx4 work 12 tb_top_level 0 22 WGDJ`9RXS^APoQ]AWS[k[3
-!i122 618
+!i122 1244
 l35
 L14 52
 VEQgU=?GG52FAld]P;^N=S2
 !s100 gc_3RPX5;]AahJC?D2NN>1
 R8
 32
-R73
+R91
 !i10b 1
-R74
-R112
-R113
+R61
+R110
+R111
 !i113 1
 R13
 R14
 Etop_level
-Z114 w1755411367
+Z112 w1760303980
 R1
 R2
 R3
-!i122 616
+!i122 1242
 R4
-Z115 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd
-Z116 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd
+Z113 8C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd
+Z114 FC:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd
 l0
-L28 1
-VOE1YDel@Ak]3OOJ]GEUFO3
-!s100 PK23mG0a;<Od9OR4W46D02
+L31 1
+VRk>[]8SeXokHLbgFITgj81
+!s100 _W1Eeeb4e4M63bGLI<EUg1
 R8
 32
-R73
+R55
 !i10b 1
-R74
-Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd|
-Z118 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd|
+R61
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd|
+Z116 !s107 C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd|
 !i113 1
 R13
 R14
@@ -814,19 +814,19 @@ R34
 R1
 R2
 R3
-DEx4 work 9 top_level 0 22 OE1YDel@Ak]3OOJ]GEUFO3
-!i122 616
-l65
-L41 75
-Vi^o?@5OYc<@LKD8QaL;992
-!s100 ^`8A9;dUGbi0:O_D?0cK51
+DEx4 work 9 top_level 0 22 Rk>[]8SeXokHLbgFITgj81
+!i122 1242
+l69
+L44 78
+VZ59HNMoBCoHeY:SG042AK3
+!s100 YQ9O7<Z78@6JMXlz72V7B0
 R8
 32
-R73
+R55
 !i10b 1
-R74
-R117
-R118
+R61
+R115
+R116
 !i113 1
 R13
 R14

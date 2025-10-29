@@ -1,9 +1,19 @@
 
 State Machine - |top_level|Controller:U_Controller|state_r
-Name state_r.R_TYPE state_r.INST_DECODE state_r.REG_FETCH state_r.INST_FETCH2 state_r.INST_FETCH1 state_r.START 
-state_r.START 0 0 0 0 0 0 
-state_r.INST_FETCH1 0 0 0 0 1 1 
-state_r.INST_FETCH2 0 0 0 1 0 1 
-state_r.REG_FETCH 0 0 1 0 0 1 
-state_r.INST_DECODE 0 1 0 0 0 1 
-state_r.R_TYPE 1 0 0 0 0 1 
+Name state_r.BRANCH state_r.BLEZ state_r.BEQ state_r.JAL2 state_r.JAL1 state_r.SW state_r.LW3 state_r.LW2 state_r.LW1 state_r.I_TYPE state_r.R_TYPE state_r.INST_DECODE state_r.REG_FETCH state_r.INST_FETCH2 state_r.INST_FETCH1 state_r.START 
+state_r.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_r.INST_FETCH1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_r.INST_FETCH2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_r.REG_FETCH 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_r.INST_DECODE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_r.R_TYPE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_r.I_TYPE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_r.LW1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_r.LW2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_r.LW3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_r.SW 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_r.JAL1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_r.JAL2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.BEQ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.BLEZ 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.BRANCH 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

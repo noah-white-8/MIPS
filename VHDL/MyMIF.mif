@@ -67,7 +67,7 @@ Content
 0F : 24220005;
 
 -- ADDIU r3, r1, 0x08 (r3 = 8) (Encoding verified) (Simulated and works)
-10 : 24230005;
+10 : 24230008;
 
 -- ANDI r8, r2, 0x04 (r8 = r2 AND 0x04) (Encoding initial write) (Simulation and works)
 11 : 30480004;
@@ -78,8 +78,25 @@ Content
 -- XORI r8, r2, 0x03 (r8 = r2 XOR 0x03) (Encoding initial write) (Simulation and works)
 13 : 38480003;
 
+-- BRANCH TEST INSTRUCTIONS START HERE
 -- BEQ r2, r3, 0x05 (Branch to 14+1+5 if r2 = r3) (Encoding initial write) (Simulated and works)
-14 : 10430005;
+-- 14 : 10430005;
+
+-- BNE r2, r3, 0x05 (Branch to 14+1+5 if r2 /= r3) (Encoding initial write) (Simulated and works)
+-- 14 : 14430005;
+
+-- BLEZ r2, 0x05 (Branch to 14+1+5 if r2 <= 0) (Encoding initial write) (Simulated and works)
+-- 14 : 18400005;
+
+-- BGTZ r2, 0x05 (Branch to 14+1+5 if r2 > 0) (Encoding initial write) (Simulated and works)
+-- 14 : 1C400005;
+
+-- BGEZ r2, 0x05 (Branch to 14+1+5 if r2 >= r3) (Encoding initial write) (Simulated and works)
+-- 14 : 40400005;
+
+-- BLTZ r2, 0x05 (Branch to 14+1+5 if r2 < 0) (Encoding initial write) (Simulated and works)
+14 : 04400005;
+-- BRANCH TEST INSTRUCTIONS END HERE
 
 -- SLTI r8, r2, 0x07 (r8 = r2 < 0x07) (Encoding initial write) (Simulated and works)
 15 : 28480007;

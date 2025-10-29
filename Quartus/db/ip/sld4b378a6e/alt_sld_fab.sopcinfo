@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="alt_sld_fab" kind="alt_sld_fab" version="1.0" fabric="QSYS">
  <!-- Format version 22.1 922 (Future versions may contain additional information.) -->
- <!-- 2025.08.17.00:12:20 -->
+ <!-- 2025.10.28.21:19:50 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_DEVICE_FAMILY">
   <type>java.lang.String</type>
@@ -56,7 +56,7 @@
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>22616eb70004761651f7</value>
+   <value>3128421426815fbfa4e7</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -104,7 +104,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="EP_INFOS">
    <type>java.lang.String</type>
-   <value>{hpath {Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2} } </value>
+   <value>{hpath {Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2} } </value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -1627,7 +1627,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>22616eb70004761651f7</value>
+   <value>3128421426815fbfa4e7</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIPS
-Sun Aug 17 00:12:27 2025
+Tue Oct 28 21:20:01 2025
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -14,49 +14,53 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
-  9. Analysis & Synthesis IP Cores Summary
- 10. State Machine - |top_level|Controller:U_Controller|state_r
- 11. Registers Removed During Synthesis
- 12. General Register Statistics
- 13. Inverted Register Statistics
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|altsyncram_o6u2:altsyncram1
- 16. Parameter Settings for User Entity Instance: Top-level Entity: |top_level
- 17. Parameter Settings for User Entity Instance: Datapath:U_Datapath
- 18. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_PC
- 19. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_MemAddr_MUX
- 20. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory
- 21. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|enable_logic:U_enable_logic
- 22. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component
- 23. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0
- 24. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1
- 25. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_OUTPORT
- 26. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX
- 27. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_IR
- 28. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_MemData_r
- 29. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX0
- 30. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX1
- 31. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_ALU_IN_MUX0
- 32. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1
- 33. Parameter Settings for User Entity Instance: Datapath:U_Datapath|alu:U_ALU
- 34. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_ALU_Out
- 35. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_LO
- 36. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_HI
- 37. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux4to1:U_MUX_PCSource
- 38. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux4to1:U_MUX_ALU_LO_HI
- 39. altsyncram Parameter Settings by Entity Instance
- 40. Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_MUX_ALU_LO_HI"
- 41. Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_MUX_PCSource"
- 42. Port Connectivity Checks: "Datapath:U_Datapath|reg:U_ALU_Out"
- 43. Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1"
- 44. Port Connectivity Checks: "Datapath:U_Datapath|reg:U_MemData_r"
- 45. Port Connectivity Checks: "Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX"
- 46. Port Connectivity Checks: "Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1"
- 47. Port Connectivity Checks: "Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0"
- 48. In-System Memory Content Editor Settings
- 49. Post-Synthesis Netlist Statistics for Top Partition
- 50. Elapsed Time Per Partition
- 51. Analysis & Synthesis Messages
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. Analysis & Synthesis IP Cores Summary
+ 11. State Machine - |top_level|Controller:U_Controller|state_r
+ 12. Registers Removed During Synthesis
+ 13. General Register Statistics
+ 14. Inverted Register Statistics
+ 15. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 16. Source assignments for Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|altsyncram_sur2:altsyncram1
+ 17. Parameter Settings for User Entity Instance: Top-level Entity: |top_level
+ 18. Parameter Settings for User Entity Instance: Datapath:U_Datapath
+ 19. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_PC
+ 20. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_MemAddr_MUX
+ 21. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory
+ 22. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|enable_logic:U_enable_logic
+ 23. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component
+ 24. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0
+ 25. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1
+ 26. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_OUTPORT
+ 27. Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX
+ 28. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_IR
+ 29. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_MemData_r
+ 30. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX0
+ 31. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX1
+ 32. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux2to1:U_ALU_IN_MUX0
+ 33. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1
+ 34. Parameter Settings for User Entity Instance: Datapath:U_Datapath|alu:U_ALU
+ 35. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_ALU_Out
+ 36. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_LO
+ 37. Parameter Settings for User Entity Instance: Datapath:U_Datapath|reg:U_HI
+ 38. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux4to1:U_MUX_PCSource
+ 39. Parameter Settings for User Entity Instance: Datapath:U_Datapath|mux4to1:U_MUX_ALU_LO_HI
+ 40. Parameter Settings for Inferred Entity Instance: Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1
+ 41. Parameter Settings for Inferred Entity Instance: Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0
+ 42. altsyncram Parameter Settings by Entity Instance
+ 43. lpm_mult Parameter Settings by Entity Instance
+ 44. Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_MUX_ALU_LO_HI"
+ 45. Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_MUX_PCSource"
+ 46. Port Connectivity Checks: "Datapath:U_Datapath|reg:U_ALU_Out"
+ 47. Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1"
+ 48. Port Connectivity Checks: "Datapath:U_Datapath|reg:U_MemData_r"
+ 49. Port Connectivity Checks: "Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX"
+ 50. Port Connectivity Checks: "Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1"
+ 51. Port Connectivity Checks: "Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0"
+ 52. In-System Memory Content Editor Settings
+ 53. Post-Synthesis Netlist Statistics for Top Partition
+ 54. Elapsed Time Per Partition
+ 55. Analysis & Synthesis Messages
 
 
 
@@ -83,19 +87,19 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Aug 17 00:12:27 2025          ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 28 21:20:01 2025          ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; MIPS                                           ;
 ; Top-level Entity Name              ; top_level                                      ;
 ; Family                             ; MAX 10                                         ;
-; Total logic elements               ; 3,051                                          ;
-;     Total combinational functions  ; 1,975                                          ;
-;     Dedicated logic registers      ; 1,326                                          ;
-; Total registers                    ; 1326                                           ;
+; Total logic elements               ; 4,159                                          ;
+;     Total combinational functions  ; 3,049                                          ;
+;     Dedicated logic registers      ; 1,462                                          ;
+; Total registers                    ; 1462                                           ;
 ; Total pins                         ; 45                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 8,192                                          ;
-; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 16                                             ;
 ; Total PLLs                         ; 0                                              ;
 ; UFM blocks                         ; 0                                              ;
 ; ADC blocks                         ; 0                                              ;
@@ -196,13 +200,13 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processor 3            ;   0.0%      ;
+;     Processor 2            ;   0.1%      ;
+;     Processor 3            ;   0.1%      ;
 ;     Processor 4            ;   0.0%      ;
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
@@ -239,9 +243,9 @@ https://fpgasoftware.intel.com/eula.
 ; altrom.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altrom.inc                                                            ;             ;
 ; altram.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altram.inc                                                            ;             ;
 ; altdpram.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altdpram.inc                                                          ;             ;
-; db/altsyncram_ao04.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_ao04.tdf                                             ;             ;
-; db/altsyncram_o6u2.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_o6u2.tdf                                             ;             ;
-; ../../Documents_Provided/Deliverable4.mif                          ; yes             ; Auto-Found Memory Initialization File        ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Documents_Provided/Deliverable4.mif                                                  ;             ;
+; db/altsyncram_egu3.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_egu3.tdf                                             ;             ;
+; db/altsyncram_sur2.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_sur2.tdf                                             ;             ;
+; ../VHDL/MyMIF.mif                                                  ; yes             ; Auto-Found Memory Initialization File        ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/MyMIF.mif                                                             ;             ;
 ; sld_mod_ram_rom.vhd                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd                                                   ;             ;
 ; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                                         ;             ;
 ; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                                     ;             ;
@@ -254,6 +258,13 @@ https://fpgasoftware.intel.com/eula.
 ; db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
 ; db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
 ; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                      ;             ;
+; lpm_mult.tdf                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/lpm_mult.tdf                                                          ;             ;
+; lpm_add_sub.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/lpm_add_sub.inc                                                       ;             ;
+; multcore.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/multcore.inc                                                          ;             ;
+; bypassff.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/bypassff.inc                                                          ;             ;
+; altshift.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altshift.inc                                                          ;             ;
+; db/mult_tns.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/mult_tns.tdf                                                    ;             ;
+; db/mult_qgs.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/mult_qgs.tdf                                                    ;             ;
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------------+
 
 
@@ -262,30 +273,30 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 3,051     ;
+; Estimated Total logic elements              ; 4,159     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1975      ;
+; Total combinational functions               ; 3049      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 1599      ;
-;     -- 3 input functions                    ; 242       ;
-;     -- <=2 input functions                  ; 134       ;
+;     -- 4 input functions                    ; 2310      ;
+;     -- 3 input functions                    ; 569       ;
+;     -- <=2 input functions                  ; 170       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 1889      ;
-;     -- arithmetic mode                      ; 86        ;
+;     -- normal mode                          ; 2734      ;
+;     -- arithmetic mode                      ; 315       ;
 ;                                             ;           ;
-; Total registers                             ; 1326      ;
-;     -- Dedicated logic registers            ; 1326      ;
+; Total registers                             ; 1462      ;
+;     -- Dedicated logic registers            ; 1462      ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 45        ;
 ; Total memory bits                           ; 8192      ;
 ;                                             ;           ;
-; Embedded Multiplier 9-bit elements          ; 0         ;
+; Embedded Multiplier 9-bit elements          ; 16        ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 1208      ;
-; Total fan-out                               ; 13241     ;
+; Maximum fan-out                             ; 1344      ;
+; Total fan-out                               ; 18000     ;
 ; Average fan-out                             ; 3.86      ;
 +---------------------------------------------+-----------+
 
@@ -295,28 +306,40 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                   ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |top_level                                                                                                                              ; 1975 (1)            ; 1326 (0)                  ; 8192        ; 0          ; 0            ; 0       ; 0         ; 45   ; 0            ; 0          ; |top_level                                                                                                                                                                                                                                                                                                                                            ; top_level                         ; work         ;
-;    |Controller:U_Controller|                                                                                                            ; 9 (9)               ; 6 (6)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Controller:U_Controller                                                                                                                                                                                                                                                                                                                    ; Controller                        ; work         ;
-;    |Datapath:U_Datapath|                                                                                                                ; 1846 (2)            ; 1234 (0)                  ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath                                                                                                                                                                                                                                                                                                                        ; Datapath                          ; work         ;
-;       |Memory_top_level:U_Memory|                                                                                                       ; 128 (0)             ; 82 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory                                                                                                                                                                                                                                                                                              ; Memory_top_level                  ; work         ;
-;          |RAM:U_RAM|                                                                                                                    ; 93 (0)              ; 64 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM                                                                                                                                                                                                                                                                                    ; RAM                               ; work         ;
-;             |altsyncram:altsyncram_component|                                                                                           ; 93 (0)              ; 64 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component                                                                                                                                                                                                                                                    ; altsyncram                        ; work         ;
-;                |altsyncram_ao04:auto_generated|                                                                                         ; 93 (0)              ; 64 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated                                                                                                                                                                                                                     ; altsyncram_ao04                   ; work         ;
-;                   |altsyncram_o6u2:altsyncram1|                                                                                         ; 0 (0)               ; 0 (0)                     ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|altsyncram_o6u2:altsyncram1                                                                                                                                                                                         ; altsyncram_o6u2                   ; work         ;
-;                   |sld_mod_ram_rom:mgl_prim2|                                                                                           ; 93 (71)             ; 64 (55)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2                                                                                                                                                                                           ; sld_mod_ram_rom                   ; work         ;
-;                      |sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|                                                               ; 22 (22)             ; 9 (9)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr                                                                                                                                        ; sld_rom_sr                        ; work         ;
-;          |enable_logic:U_enable_logic|                                                                                                  ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|enable_logic:U_enable_logic                                                                                                                                                                                                                                                                  ; enable_logic                      ; work         ;
-;          |mux4to1:U_MUX|                                                                                                                ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX                                                                                                                                                                                                                                                                                ; mux4to1                           ; work         ;
+; |top_level                                                                                                                              ; 3049 (4)            ; 1462 (0)                  ; 8192        ; 0          ; 16           ; 0       ; 8         ; 45   ; 0            ; 0          ; |top_level                                                                                                                                                                                                                                                                                                                                            ; top_level                         ; work         ;
+;    |Controller:U_Controller|                                                                                                            ; 54 (54)             ; 14 (14)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Controller:U_Controller                                                                                                                                                                                                                                                                                                                    ; Controller                        ; work         ;
+;    |Datapath:U_Datapath|                                                                                                                ; 2872 (2)            ; 1362 (0)                  ; 8192        ; 0          ; 16           ; 0       ; 8         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath                                                                                                                                                                                                                                                                                                                        ; Datapath                          ; work         ;
+;       |Memory_top_level:U_Memory|                                                                                                       ; 163 (0)             ; 114 (0)                   ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory                                                                                                                                                                                                                                                                                              ; Memory_top_level                  ; work         ;
+;          |RAM:U_RAM|                                                                                                                    ; 94 (0)              ; 64 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM                                                                                                                                                                                                                                                                                    ; RAM                               ; work         ;
+;             |altsyncram:altsyncram_component|                                                                                           ; 94 (0)              ; 64 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component                                                                                                                                                                                                                                                    ; altsyncram                        ; work         ;
+;                |altsyncram_egu3:auto_generated|                                                                                         ; 94 (0)              ; 64 (0)                    ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated                                                                                                                                                                                                                     ; altsyncram_egu3                   ; work         ;
+;                   |altsyncram_sur2:altsyncram1|                                                                                         ; 0 (0)               ; 0 (0)                     ; 8192        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|altsyncram_sur2:altsyncram1                                                                                                                                                                                         ; altsyncram_sur2                   ; work         ;
+;                   |sld_mod_ram_rom:mgl_prim2|                                                                                           ; 94 (72)             ; 64 (55)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2                                                                                                                                                                                           ; sld_mod_ram_rom                   ; work         ;
+;                      |sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|                                                               ; 22 (22)             ; 9 (9)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr                                                                                                                                        ; sld_rom_sr                        ; work         ;
+;          |enable_logic:U_enable_logic|                                                                                                  ; 28 (28)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|enable_logic:U_enable_logic                                                                                                                                                                                                                                                                  ; enable_logic                      ; work         ;
+;          |mux4to1:U_MUX|                                                                                                                ; 41 (41)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX                                                                                                                                                                                                                                                                                ; mux4to1                           ; work         ;
 ;          |reg:U_INPORT0|                                                                                                                ; 0 (0)               ; 9 (9)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0                                                                                                                                                                                                                                                                                ; reg                               ; work         ;
 ;          |reg:U_INPORT1|                                                                                                                ; 0 (0)               ; 9 (9)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1                                                                                                                                                                                                                                                                                ; reg                               ; work         ;
-;       |alu:U_ALU|                                                                                                                       ; 243 (243)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu:U_ALU                                                                                                                                                                                                                                                                                                              ; alu                               ; work         ;
-;       |alu_control:U_ALU_CTRL|                                                                                                          ; 9 (9)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu_control:U_ALU_CTRL                                                                                                                                                                                                                                                                                                 ; alu_control                       ; work         ;
-;       |mux2to1:U_ALU_IN_MUX0|                                                                                                           ; 34 (34)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux2to1:U_ALU_IN_MUX0                                                                                                                                                                                                                                                                                                  ; mux2to1                           ; work         ;
-;       |mux4to1:U_ALU_IN_MUX1|                                                                                                           ; 32 (32)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1                                                                                                                                                                                                                                                                                                  ; mux4to1                           ; work         ;
+;          |reg:U_OUTPORT|                                                                                                                ; 0 (0)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_OUTPORT                                                                                                                                                                                                                                                                                ; reg                               ; work         ;
+;       |alu:U_ALU|                                                                                                                       ; 1076 (905)          ; 0 (0)                     ; 0           ; 0          ; 16           ; 0       ; 8         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu:U_ALU                                                                                                                                                                                                                                                                                                              ; alu                               ; work         ;
+;          |lpm_mult:Mult0|                                                                                                               ; 92 (0)              ; 0 (0)                     ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0                                                                                                                                                                                                                                                                                               ; lpm_mult                          ; work         ;
+;             |mult_qgs:auto_generated|                                                                                                   ; 92 (92)             ; 0 (0)                     ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0|mult_qgs:auto_generated                                                                                                                                                                                                                                                                       ; mult_qgs                          ; work         ;
+;          |lpm_mult:Mult1|                                                                                                               ; 79 (0)              ; 0 (0)                     ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1                                                                                                                                                                                                                                                                                               ; lpm_mult                          ; work         ;
+;             |mult_tns:auto_generated|                                                                                                   ; 79 (79)             ; 0 (0)                     ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1|mult_tns:auto_generated                                                                                                                                                                                                                                                                       ; mult_tns                          ; work         ;
+;       |alu_control:U_ALU_CTRL|                                                                                                          ; 44 (44)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|alu_control:U_ALU_CTRL                                                                                                                                                                                                                                                                                                 ; alu_control                       ; work         ;
+;       |mux2to1:U_ALU_IN_MUX0|                                                                                                           ; 33 (33)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux2to1:U_ALU_IN_MUX0                                                                                                                                                                                                                                                                                                  ; mux2to1                           ; work         ;
+;       |mux2to1:U_MemAddr_MUX|                                                                                                           ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux2to1:U_MemAddr_MUX                                                                                                                                                                                                                                                                                                  ; mux2to1                           ; work         ;
+;       |mux2to1:U_RegFile_IN_MUX0|                                                                                                       ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX0                                                                                                                                                                                                                                                                                              ; mux2to1                           ; work         ;
+;       |mux2to1:U_RegFile_IN_MUX1|                                                                                                       ; 66 (66)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX1                                                                                                                                                                                                                                                                                              ; mux2to1                           ; work         ;
+;       |mux4to1:U_ALU_IN_MUX1|                                                                                                           ; 38 (38)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1                                                                                                                                                                                                                                                                                                  ; mux4to1                           ; work         ;
+;       |mux4to1:U_MUX_PCSource|                                                                                                          ; 11 (11)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|mux4to1:U_MUX_PCSource                                                                                                                                                                                                                                                                                                 ; mux4to1                           ; work         ;
 ;       |reg:U_ALU_Out|                                                                                                                   ; 0 (0)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_ALU_Out                                                                                                                                                                                                                                                                                                          ; reg                               ; work         ;
-;       |reg:U_IR|                                                                                                                        ; 9 (9)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_IR                                                                                                                                                                                                                                                                                                               ; reg                               ; work         ;
-;       |reg:U_PC|                                                                                                                        ; 0 (0)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_PC                                                                                                                                                                                                                                                                                                               ; reg                               ; work         ;
-;       |registerfile:U_RegFile|                                                                                                          ; 1389 (1389)         ; 1056 (1056)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|registerfile:U_RegFile                                                                                                                                                                                                                                                                                                 ; registerfile                      ; work         ;
+;       |reg:U_HI|                                                                                                                        ; 1 (1)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_HI                                                                                                                                                                                                                                                                                                               ; reg                               ; work         ;
+;       |reg:U_IR|                                                                                                                        ; 0 (0)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_IR                                                                                                                                                                                                                                                                                                               ; reg                               ; work         ;
+;       |reg:U_LO|                                                                                                                        ; 0 (0)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_LO                                                                                                                                                                                                                                                                                                               ; reg                               ; work         ;
+;       |reg:U_MemData_r|                                                                                                                 ; 0 (0)               ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_MemData_r                                                                                                                                                                                                                                                                                                        ; reg                               ; work         ;
+;       |reg:U_PC|                                                                                                                        ; 29 (29)             ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|reg:U_PC                                                                                                                                                                                                                                                                                                               ; reg                               ; work         ;
+;       |registerfile:U_RegFile|                                                                                                          ; 1392 (1392)         ; 1056 (1056)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|Datapath:U_Datapath|registerfile:U_RegFile                                                                                                                                                                                                                                                                                                 ; registerfile                      ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 119 (1)             ; 86 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; sld_hub                           ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 118 (0)             ; 86 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; alt_sld_fab_with_jtag_input       ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 118 (0)             ; 86 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top_level|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab                       ; alt_sld_fab  ;
@@ -329,13 +352,31 @@ https://fpgasoftware.intel.com/eula.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                                                                     ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+-------------------------------------------+
-; Name                                                                                                                                                          ; Type ; Mode           ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF                                       ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+-------------------------------------------+
-; Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|altsyncram_o6u2:altsyncram1|ALTSYNCRAM ; AUTO ; True Dual Port ; 256          ; 32           ; 256          ; 32           ; 8192 ; ../../Documents_Provided/Deliverable4.mif ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+-------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                                             ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+-------------------+
+; Name                                                                                                                                                          ; Type ; Mode           ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF               ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+-------------------+
+; Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|altsyncram_sur2:altsyncram1|ALTSYNCRAM ; AUTO ; True Dual Port ; 256          ; 32           ; 256          ; 32           ; 8192 ; ../VHDL/MyMIF.mif ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+-------------------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 8           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 16          ;
+; Signed Embedded Multipliers           ; 1           ;
+; Unsigned Embedded Multipliers         ; 5           ;
+; Mixed Sign Embedded Multipliers       ; 2           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -352,65 +393,73 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |top_level|Controller:U_Controller|state_r                                                                                 ;
-+---------------------+----------------+---------------------+-------------------+---------------------+---------------------+---------------+
-; Name                ; state_r.R_TYPE ; state_r.INST_DECODE ; state_r.REG_FETCH ; state_r.INST_FETCH2 ; state_r.INST_FETCH1 ; state_r.START ;
-+---------------------+----------------+---------------------+-------------------+---------------------+---------------------+---------------+
-; state_r.START       ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 0             ;
-; state_r.INST_FETCH1 ; 0              ; 0                   ; 0                 ; 0                   ; 1                   ; 1             ;
-; state_r.INST_FETCH2 ; 0              ; 0                   ; 0                 ; 1                   ; 0                   ; 1             ;
-; state_r.REG_FETCH   ; 0              ; 0                   ; 1                 ; 0                   ; 0                   ; 1             ;
-; state_r.INST_DECODE ; 0              ; 1                   ; 0                 ; 0                   ; 0                   ; 1             ;
-; state_r.R_TYPE      ; 1              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
-+---------------------+----------------+---------------------+-------------------+---------------------+---------------------+---------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |top_level|Controller:U_Controller|state_r                                                                                                                                                                                                                                     ;
++---------------------+----------------+--------------+-------------+--------------+--------------+------------+-------------+-------------+-------------+----------------+----------------+---------------------+-------------------+---------------------+---------------------+---------------+
+; Name                ; state_r.BRANCH ; state_r.BLEZ ; state_r.BEQ ; state_r.JAL2 ; state_r.JAL1 ; state_r.SW ; state_r.LW3 ; state_r.LW2 ; state_r.LW1 ; state_r.I_TYPE ; state_r.R_TYPE ; state_r.INST_DECODE ; state_r.REG_FETCH ; state_r.INST_FETCH2 ; state_r.INST_FETCH1 ; state_r.START ;
++---------------------+----------------+--------------+-------------+--------------+--------------+------------+-------------+-------------+-------------+----------------+----------------+---------------------+-------------------+---------------------+---------------------+---------------+
+; state_r.START       ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 0             ;
+; state_r.INST_FETCH1 ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 1                   ; 1             ;
+; state_r.INST_FETCH2 ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 1                   ; 0                   ; 1             ;
+; state_r.REG_FETCH   ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 1                 ; 0                   ; 0                   ; 1             ;
+; state_r.INST_DECODE ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 1                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.R_TYPE      ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 1              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.I_TYPE      ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 1              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.LW1         ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 1           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.LW2         ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 1           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.LW3         ; 0              ; 0            ; 0           ; 0            ; 0            ; 0          ; 1           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.SW          ; 0              ; 0            ; 0           ; 0            ; 0            ; 1          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.JAL1        ; 0              ; 0            ; 0           ; 0            ; 1            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.JAL2        ; 0              ; 0            ; 0           ; 1            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.BEQ         ; 0              ; 0            ; 1           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.BLEZ        ; 0              ; 1            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
+; state_r.BRANCH      ; 1              ; 0            ; 0           ; 0            ; 0            ; 0          ; 0           ; 0           ; 0           ; 0              ; 0              ; 0                   ; 0                 ; 0                   ; 0                   ; 1             ;
++---------------------+----------------+--------------+-------------+--------------+--------------+------------+-------------+-------------+-------------+----------------+----------------+---------------------+-------------------+---------------------+---------------------+---------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                      ;
-+---------------------------------------------------------------------------+---------------------------------------------+
-; Register name                                                             ; Reason for Removal                          ;
-+---------------------------------------------------------------------------+---------------------------------------------+
-; Datapath:U_Datapath|reg:U_HI|output[0..31]                                ; Lost fanout                                 ;
-; Datapath:U_Datapath|reg:U_LO|output[0..31]                                ; Lost fanout                                 ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][31]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][30]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][29]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][28]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][27]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][26]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][25]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][24]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][23]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][22]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][21]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][20]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][19]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][18]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][17]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][16]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][15]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][14]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][13]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][12]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][11]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][10]                    ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][9]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][8]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][7]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][6]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][5]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][4]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][3]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][2]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][1]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][0]                     ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|reg:U_MemData_r|output[0..31]                         ; Lost fanout                                 ;
-; Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1|output[9..31] ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0|output[9..31] ; Stuck at GND due to stuck port data_in      ;
-; Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_OUTPORT|output[0..31] ; Stuck at GND due to stuck port clock_enable ;
-; Total Number of Removed Registers = 206                                   ;                                             ;
-+---------------------------------------------------------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                          ;
++---------------------------------------------------------------------------+-------------------------------------------------+
+; Register name                                                             ; Reason for Removal                              ;
++---------------------------------------------------------------------------+-------------------------------------------------+
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][31]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][30]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][29]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][28]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][27]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][26]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][25]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][24]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][23]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][22]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][21]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][20]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][19]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][18]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][17]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][16]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][15]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][14]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][13]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][12]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][11]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][10]                    ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][9]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][8]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][7]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][6]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][5]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][4]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][3]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][2]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][1]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|registerfile:U_RegFile|regs[0][0]                     ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT1|output[9..31] ; Stuck at GND due to stuck port data_in          ;
+; Datapath:U_Datapath|Memory_top_level:U_Memory|reg:U_INPORT0|output[9..31] ; Stuck at GND due to stuck port data_in          ;
+; Controller:U_Controller|state_r.BLEZ                                      ; Merged with Controller:U_Controller|state_r.BEQ ;
+; Controller:U_Controller|state_r.BEQ                                       ; Stuck at GND due to stuck port data_in          ;
+; Total Number of Removed Registers = 80                                    ;                                                 ;
++---------------------------------------------------------------------------+-------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -418,12 +467,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1326  ;
+; Total registers                              ; 1462  ;
 ; Number of registers using Synchronous Clear  ; 17    ;
-; Number of registers using Synchronous Load   ; 27    ;
-; Number of registers using Asynchronous Clear ; 1150  ;
+; Number of registers using Synchronous Load   ; 44    ;
+; Number of registers using Asynchronous Clear ; 1286  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1252  ;
+; Number of registers using Clock Enable       ; 1348  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -444,25 +493,35 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                                                                     ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3]                                     ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[13]                                               ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|reg:U_IR|output[2]                                                                                                                                                                              ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[0]                                                ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[0] ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|registerfile:U_RegFile|rd_data1[13]                                                                                                                                                             ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|registerfile:U_RegFile|rd_data0[19]                                                                                                                                                             ;
-; 26:1               ; 4 bits    ; 68 LEs        ; 48 LEs               ; 20 LEs                 ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[0]      ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux12                                                                                                                                                                                 ;
-; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux19                                                                                                                                                                                 ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |top_level|Controller:U_Controller|Selector11                                                                                                                                                                                  ;
-; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux27                                                                                                                                                                                 ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux29                                                                                                                                                                                 ;
-; 9:1                ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux30                                                                                                                                                                                 ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|reg:U_PC|output[30]                                                                                                                                                                             ;
+; 4:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|reg:U_PC|output[13]                                                                                                                                                                             ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[0]                                     ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[17]                                               ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_addr_reg[4]                                                ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[0] ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|registerfile:U_RegFile|rd_data1[27]                                                                                                                                                             ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; Yes        ; |top_level|Datapath:U_Datapath|registerfile:U_RegFile|rd_data0[2]                                                                                                                                                              ;
+; 128:1              ; 32 bits   ; 2720 LEs      ; 64 LEs               ; 2656 LEs               ; Yes        ; |top_level|Datapath:U_Datapath|reg:U_HI|output[31]                                                                                                                                                                             ;
+; 26:1               ; 4 bits    ; 68 LEs        ; 48 LEs               ; 20 LEs                 ; Yes        ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[3]      ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1|mux_out[17]                                                                                                                                                               ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX|mux_out[6]                                                                                                                                              ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |top_level|Datapath:U_Datapath|mux4to1:U_ALU_IN_MUX1|mux_out[2]                                                                                                                                                                ;
+; 5:1                ; 32 bits   ; 96 LEs        ; 64 LEs               ; 32 LEs                 ; No         ; |top_level|Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX1|mux_out[2]                                                                                                                                                            ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |top_level|Controller:U_Controller|Selector20                                                                                                                                                                                  ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |top_level|Controller:U_Controller|Selector17                                                                                                                                                                                  ;
+; 64:1               ; 8 bits    ; 336 LEs       ; 48 LEs               ; 288 LEs                ; No         ; |top_level|Controller:U_Controller|Mux15                                                                                                                                                                                       ;
+; 64:1               ; 7 bits    ; 294 LEs       ; 98 LEs               ; 196 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu_control:U_ALU_CTRL|Mux12                                                                                                                                                                    ;
+; 131:1              ; 8 bits    ; 696 LEs       ; 80 LEs               ; 616 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux20                                                                                                                                                                                 ;
+; 132:1              ; 7 bits    ; 616 LEs       ; 84 LEs               ; 532 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux12                                                                                                                                                                                 ;
+; 132:1              ; 4 bits    ; 352 LEs       ; 48 LEs               ; 304 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux27                                                                                                                                                                                 ;
+; 133:1              ; 4 bits    ; 352 LEs       ; 52 LEs               ; 300 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux4                                                                                                                                                                                  ;
+; 133:1              ; 2 bits    ; 176 LEs       ; 24 LEs               ; 152 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux28                                                                                                                                                                                 ;
+; 134:1              ; 2 bits    ; 178 LEs       ; 26 LEs               ; 152 LEs                ; No         ; |top_level|Datapath:U_Datapath|alu:U_ALU|Mux2                                                                                                                                                                                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|altsyncram_o6u2:altsyncram1 ;
+; Source assignments for Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|altsyncram_sur2:altsyncram1 ;
 +---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                                                          ;
 +---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------------------+
@@ -532,62 +591,62 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +--------------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component ;
-+------------------------------------+-------------------------------------------+-----------------------------------------------------+
-; Parameter Name                     ; Value                                     ; Type                                                ;
-+------------------------------------+-------------------------------------------+-----------------------------------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                                         ; Untyped                                             ;
-; AUTO_CARRY_CHAINS                  ; ON                                        ; AUTO_CARRY                                          ;
-; IGNORE_CARRY_BUFFERS               ; OFF                                       ; IGNORE_CARRY                                        ;
-; AUTO_CASCADE_CHAINS                ; ON                                        ; AUTO_CASCADE                                        ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                                       ; IGNORE_CASCADE                                      ;
-; WIDTH_BYTEENA                      ; 1                                         ; Untyped                                             ;
-; OPERATION_MODE                     ; SINGLE_PORT                               ; Untyped                                             ;
-; WIDTH_A                            ; 32                                        ; Signed Integer                                      ;
-; WIDTHAD_A                          ; 8                                         ; Signed Integer                                      ;
-; NUMWORDS_A                         ; 256                                       ; Signed Integer                                      ;
-; OUTDATA_REG_A                      ; UNREGISTERED                              ; Untyped                                             ;
-; ADDRESS_ACLR_A                     ; NONE                                      ; Untyped                                             ;
-; OUTDATA_ACLR_A                     ; NONE                                      ; Untyped                                             ;
-; WRCONTROL_ACLR_A                   ; NONE                                      ; Untyped                                             ;
-; INDATA_ACLR_A                      ; NONE                                      ; Untyped                                             ;
-; BYTEENA_ACLR_A                     ; NONE                                      ; Untyped                                             ;
-; WIDTH_B                            ; 1                                         ; Signed Integer                                      ;
-; WIDTHAD_B                          ; 1                                         ; Signed Integer                                      ;
-; NUMWORDS_B                         ; 0                                         ; Signed Integer                                      ;
-; INDATA_REG_B                       ; CLOCK1                                    ; Untyped                                             ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                    ; Untyped                                             ;
-; RDCONTROL_REG_B                    ; CLOCK1                                    ; Untyped                                             ;
-; ADDRESS_REG_B                      ; CLOCK1                                    ; Untyped                                             ;
-; OUTDATA_REG_B                      ; UNREGISTERED                              ; Untyped                                             ;
-; BYTEENA_REG_B                      ; CLOCK1                                    ; Untyped                                             ;
-; INDATA_ACLR_B                      ; NONE                                      ; Untyped                                             ;
-; WRCONTROL_ACLR_B                   ; NONE                                      ; Untyped                                             ;
-; ADDRESS_ACLR_B                     ; NONE                                      ; Untyped                                             ;
-; OUTDATA_ACLR_B                     ; NONE                                      ; Untyped                                             ;
-; RDCONTROL_ACLR_B                   ; NONE                                      ; Untyped                                             ;
-; BYTEENA_ACLR_B                     ; NONE                                      ; Untyped                                             ;
-; WIDTH_BYTEENA_A                    ; 1                                         ; Signed Integer                                      ;
-; WIDTH_BYTEENA_B                    ; 1                                         ; Signed Integer                                      ;
-; RAM_BLOCK_TYPE                     ; AUTO                                      ; Untyped                                             ;
-; BYTE_SIZE                          ; 8                                         ; Signed Integer                                      ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                 ; Untyped                                             ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                      ; Untyped                                             ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                      ; Untyped                                             ;
-; INIT_FILE                          ; ../../Documents_Provided/Deliverable4.mif ; Untyped                                             ;
-; INIT_FILE_LAYOUT                   ; PORT_A                                    ; Untyped                                             ;
-; MAXIMUM_DEPTH                      ; 0                                         ; Signed Integer                                      ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS                                    ; Untyped                                             ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL                                    ; Untyped                                             ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                                    ; Untyped                                             ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                    ; Untyped                                             ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                           ; Untyped                                             ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                           ; Untyped                                             ;
-; ENABLE_ECC                         ; FALSE                                     ; Untyped                                             ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                     ; Untyped                                             ;
-; WIDTH_ECCSTATUS                    ; 3                                         ; Signed Integer                                      ;
-; DEVICE_FAMILY                      ; MAX 10                                    ; Untyped                                             ;
-; CBXI_PARAMETER                     ; altsyncram_ao04                           ; Untyped                                             ;
-+------------------------------------+-------------------------------------------+-----------------------------------------------------+
++------------------------------------+----------------------+--------------------------------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                                                     ;
++------------------------------------+----------------------+--------------------------------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                                                  ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                                           ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                                                  ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                                                                  ;
+; WIDTH_A                            ; 32                   ; Signed Integer                                                           ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer                                                           ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer                                                           ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                                                  ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                                                  ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                                                  ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                                                  ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                                                  ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                                                  ;
+; WIDTH_B                            ; 1                    ; Signed Integer                                                           ;
+; WIDTHAD_B                          ; 1                    ; Signed Integer                                                           ;
+; NUMWORDS_B                         ; 0                    ; Signed Integer                                                           ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                                                  ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                                                  ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                                                  ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                                                                  ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                                                  ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                                                  ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                                                  ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                  ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                                                  ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                                                  ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                  ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                                                  ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                                                           ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer                                                           ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                                                  ;
+; BYTE_SIZE                          ; 8                    ; Signed Integer                                                           ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                                                  ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                  ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                  ;
+; INIT_FILE                          ; ../VHDL/MyMIF.mif    ; Untyped                                                                  ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                                  ;
+; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer                                                           ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                                                  ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                                                  ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                                                  ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                                                  ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                                                  ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                                                  ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                                                  ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                                                  ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer                                                           ;
+; DEVICE_FAMILY                      ; MAX 10               ; Untyped                                                                  ;
+; CBXI_PARAMETER                     ; altsyncram_egu3      ; Untyped                                                                  ;
++------------------------------------+----------------------+--------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -751,6 +810,76 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1 ;
++------------------------------------------------+----------+-----------------------------------+
+; Parameter Name                                 ; Value    ; Type                              ;
++------------------------------------------------+----------+-----------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON       ; AUTO_CARRY                        ;
+; IGNORE_CARRY_BUFFERS                           ; OFF      ; IGNORE_CARRY                      ;
+; AUTO_CASCADE_CHAINS                            ; ON       ; AUTO_CASCADE                      ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF      ; IGNORE_CASCADE                    ;
+; LPM_WIDTHA                                     ; 32       ; Untyped                           ;
+; LPM_WIDTHB                                     ; 32       ; Untyped                           ;
+; LPM_WIDTHP                                     ; 64       ; Untyped                           ;
+; LPM_WIDTHR                                     ; 64       ; Untyped                           ;
+; LPM_WIDTHS                                     ; 1        ; Untyped                           ;
+; LPM_REPRESENTATION                             ; UNSIGNED ; Untyped                           ;
+; LPM_PIPELINE                                   ; 0        ; Untyped                           ;
+; LATENCY                                        ; 0        ; Untyped                           ;
+; INPUT_A_IS_CONSTANT                            ; NO       ; Untyped                           ;
+; INPUT_B_IS_CONSTANT                            ; NO       ; Untyped                           ;
+; USE_EAB                                        ; OFF      ; Untyped                           ;
+; MAXIMIZE_SPEED                                 ; 5        ; Untyped                           ;
+; DEVICE_FAMILY                                  ; MAX 10   ; Untyped                           ;
+; CARRY_CHAIN                                    ; MANUAL   ; Untyped                           ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT      ; TECH_MAPPER_APEX20K               ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO     ; Untyped                           ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0        ; Untyped                           ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0        ; Untyped                           ;
+; CBXI_PARAMETER                                 ; mult_tns ; Untyped                           ;
+; INPUT_A_FIXED_VALUE                            ; Bx       ; Untyped                           ;
+; INPUT_B_FIXED_VALUE                            ; Bx       ; Untyped                           ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF      ; Untyped                           ;
++------------------------------------------------+----------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0 ;
++------------------------------------------------+----------+-----------------------------------+
+; Parameter Name                                 ; Value    ; Type                              ;
++------------------------------------------------+----------+-----------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON       ; AUTO_CARRY                        ;
+; IGNORE_CARRY_BUFFERS                           ; OFF      ; IGNORE_CARRY                      ;
+; AUTO_CASCADE_CHAINS                            ; ON       ; AUTO_CASCADE                      ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF      ; IGNORE_CASCADE                    ;
+; LPM_WIDTHA                                     ; 32       ; Untyped                           ;
+; LPM_WIDTHB                                     ; 32       ; Untyped                           ;
+; LPM_WIDTHP                                     ; 64       ; Untyped                           ;
+; LPM_WIDTHR                                     ; 64       ; Untyped                           ;
+; LPM_WIDTHS                                     ; 1        ; Untyped                           ;
+; LPM_REPRESENTATION                             ; SIGNED   ; Untyped                           ;
+; LPM_PIPELINE                                   ; 0        ; Untyped                           ;
+; LATENCY                                        ; 0        ; Untyped                           ;
+; INPUT_A_IS_CONSTANT                            ; NO       ; Untyped                           ;
+; INPUT_B_IS_CONSTANT                            ; NO       ; Untyped                           ;
+; USE_EAB                                        ; OFF      ; Untyped                           ;
+; MAXIMIZE_SPEED                                 ; 5        ; Untyped                           ;
+; DEVICE_FAMILY                                  ; MAX 10   ; Untyped                           ;
+; CARRY_CHAIN                                    ; MANUAL   ; Untyped                           ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT      ; TECH_MAPPER_APEX20K               ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO     ; Untyped                           ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0        ; Untyped                           ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0        ; Untyped                           ;
+; CBXI_PARAMETER                                 ; mult_qgs ; Untyped                           ;
+; INPUT_A_FIXED_VALUE                            ; Bx       ; Untyped                           ;
+; INPUT_B_FIXED_VALUE                            ; Bx       ; Untyped                           ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF      ; Untyped                           ;
++------------------------------------------------+----------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-------------------------------------------------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                                                                    ;
 +-------------------------------------------+-----------------------------------------------------------------------------------------+
@@ -771,6 +900,37 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+-----------------------------------------------------------------------------------------+
 
 
++--------------------------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                                       ;
++---------------------------------------+----------------------------------------------+
+; Name                                  ; Value                                        ;
++---------------------------------------+----------------------------------------------+
+; Number of entity instances            ; 2                                            ;
+; Entity Instance                       ; Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1 ;
+;     -- LPM_WIDTHA                     ; 32                                           ;
+;     -- LPM_WIDTHB                     ; 32                                           ;
+;     -- LPM_WIDTHP                     ; 64                                           ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                                     ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                           ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                           ;
+;     -- USE_EAB                        ; OFF                                          ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                         ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                           ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                           ;
+; Entity Instance                       ; Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 32                                           ;
+;     -- LPM_WIDTHB                     ; 32                                           ;
+;     -- LPM_WIDTHP                     ; 64                                           ;
+;     -- LPM_REPRESENTATION             ; SIGNED                                       ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                           ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                           ;
+;     -- USE_EAB                        ; OFF                                          ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                         ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                           ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                           ;
++---------------------------------------+----------------------------------------------+
+
+
 +-------------------------------------------------------------------------+
 ; Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_MUX_ALU_LO_HI" ;
 +------+-------+----------+-----------------------------------------------+
@@ -782,12 +942,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +------------------------------------------------------------------------+
 ; Port Connectivity Checks: "Datapath:U_Datapath|mux4to1:U_MUX_PCSource" ;
-+----------+-------+----------+------------------------------------------+
-; Port     ; Type  ; Severity ; Details                                  ;
-+----------+-------+----------+------------------------------------------+
-; d2[1..0] ; Input ; Info     ; Stuck at GND                             ;
-; d3       ; Input ; Info     ; Stuck at GND                             ;
-+----------+-------+----------+------------------------------------------+
++------+-------+----------+----------------------------------------------+
+; Port ; Type  ; Severity ; Details                                      ;
++------+-------+----------+----------------------------------------------+
+; d3   ; Input ; Info     ; Stuck at GND                                 ;
++------+-------+----------+----------------------------------------------+
 
 
 +---------------------------------------------------------------+
@@ -804,9 +963,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+----------------------------------------+
 ; Port      ; Type  ; Severity ; Details                                ;
 +-----------+-------+----------+----------------------------------------+
-; d1[31..3] ; Input ; Info     ; Stuck at GND                           ;
-; d1[1..0]  ; Input ; Info     ; Stuck at GND                           ;
-; d1[2]     ; Input ; Info     ; Stuck at VCC                           ;
+; d1[31..1] ; Input ; Info     ; Stuck at GND                           ;
+; d1[0]     ; Input ; Info     ; Stuck at VCC                           ;
 ; d3[1..0]  ; Input ; Info     ; Stuck at GND                           ;
 +-----------+-------+----------+----------------------------------------+
 
@@ -854,7 +1012,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------+-------+-------+------------+------------------------------------------------------------------------------------------------------------------------+
 ; Instance Index ; Instance ID ; Width ; Depth ; Mode       ; Hierarchy Location                                                                                                     ;
 +----------------+-------------+-------+-------+------------+------------------------------------------------------------------------------------------------------------------------+
-; 0              ; RAM0        ; 32    ; 256   ; Read/Write ; Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated ;
+; 0              ; RAM0        ; 32    ; 256   ; Read/Write ; Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated ;
 +----------------+-------------+-------+-------+------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -864,26 +1022,28 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 72                          ;
-; cycloneiii_ff         ; 1240                        ;
-;     CLR               ; 46                          ;
+; cycloneiii_ff         ; 1376                        ;
+;     CLR               ; 86                          ;
 ;     ENA               ; 118                         ;
-;     ENA CLR           ; 1054                        ;
-;     ENA CLR SLD       ; 17                          ;
+;     ENA CLR           ; 1133                        ;
+;     ENA CLR SLD       ; 34                          ;
 ;     ENA SCLR          ; 5                           ;
-; cycloneiii_lcell_comb ; 1856                        ;
-;     arith             ; 78                          ;
-;         2 data inputs ; 16                          ;
-;         3 data inputs ; 62                          ;
-;     normal            ; 1778                        ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 4                           ;
-;         2 data inputs ; 76                          ;
-;         3 data inputs ; 150                         ;
-;         4 data inputs ; 1547                        ;
+; cycloneiii_lcell_comb ; 2929                        ;
+;     arith             ; 307                         ;
+;         2 data inputs ; 54                          ;
+;         3 data inputs ; 253                         ;
+;     normal            ; 2622                        ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 71                          ;
+;         3 data inputs ; 287                         ;
+;         4 data inputs ; 2257                        ;
+; cycloneiii_mac_mult   ; 8                           ;
+; cycloneiii_mac_out    ; 8                           ;
 ; cycloneiii_ram_block  ; 32                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 9.00                        ;
-; Average LUT depth     ; 5.37                        ;
+; Max LUT depth         ; 19.00                       ;
+; Average LUT depth     ; 7.52                        ;
 +-----------------------+-----------------------------+
 
 
@@ -892,7 +1052,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -902,7 +1062,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Sun Aug 17 00:12:10 2025
+    Info: Processing started: Tue Oct 28 21:19:40 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIPS -c MIPS
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -910,8 +1070,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file ram.vhd
     Info (12022): Found design unit 1: ram-SYN File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd Line: 56
     Info (12023): Found entity 1: RAM File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd Line: 43
 Info (12021): Found 2 design units, including 1 entities, in source file /users/noahw/docs_notsaved/eel4712c/mips/weeks_all/vhdl/top_level.vhd
-    Info (12022): Found design unit 1: top_level-structural File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 40
-    Info (12023): Found entity 1: top_level File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 27
+    Info (12022): Found design unit 1: top_level-structural File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 44
+    Info (12023): Found entity 1: top_level File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file /users/noahw/docs_notsaved/eel4712c/mips/weeks_all/vhdl/sign_extend.vhd
     Info (12022): Found design unit 1: sign_extend-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd Line: 17
     Info (12023): Found entity 1: sign_extend File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/sign_extend.vhd Line: 8
@@ -937,23 +1097,25 @@ Info (12021): Found 2 design units, including 1 entities, in source file /users/
     Info (12022): Found design unit 1: Enable_logic-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd Line: 22
     Info (12023): Found entity 1: enable_logic File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/enable_logic.vhd Line: 10
 Info (12021): Found 2 design units, including 1 entities, in source file /users/noahw/docs_notsaved/eel4712c/mips/weeks_all/vhdl/datapath.vhd
-    Info (12022): Found design unit 1: Datapath-structural File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 37
+    Info (12022): Found design unit 1: Datapath-structural File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 38
     Info (12023): Found entity 1: Datapath File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file /users/noahw/docs_notsaved/eel4712c/mips/weeks_all/vhdl/controller.vhd
-    Info (12022): Found design unit 1: Controller-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd Line: 48
-    Info (12023): Found entity 1: Controller File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd Line: 22
+    Info (12022): Found design unit 1: Controller-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd Line: 47
+    Info (12023): Found entity 1: Controller File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd Line: 20
 Info (12021): Found 2 design units, including 1 entities, in source file /users/noahw/docs_notsaved/eel4712c/mips/weeks_all/vhdl/alu_control.vhd
-    Info (12022): Found design unit 1: alu_control-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd Line: 20
-    Info (12023): Found entity 1: alu_control File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd Line: 7
+    Info (12022): Found design unit 1: alu_control-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd Line: 21
+    Info (12023): Found entity 1: alu_control File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu_control.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file /users/noahw/docs_notsaved/eel4712c/mips/weeks_all/vhdl/alu.vhd
     Info (12022): Found design unit 1: alu-behavioral File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 29
     Info (12023): Found entity 1: alu File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 11
 Info (12127): Elaborating entity "top_level" for the top level hierarchy
-Info (12128): Elaborating entity "Controller" for hierarchy "Controller:U_Controller" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 67
-Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:U_Datapath" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 89
-Info (12128): Elaborating entity "reg" for hierarchy "Datapath:U_Datapath|reg:U_PC" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 183
-Info (12128): Elaborating entity "mux2to1" for hierarchy "Datapath:U_Datapath|mux2to1:U_MemAddr_MUX" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 191
-Info (12128): Elaborating entity "Memory_top_level" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 198
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:U_Controller" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 72
+Warning (10492): VHDL Process Statement warning at Controller.vhd(118): signal "IR5to0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd Line: 118
+Warning (10492): VHDL Process Statement warning at Controller.vhd(239): signal "IR5to0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Controller.vhd Line: 239
+Info (12128): Elaborating entity "Datapath" for hierarchy "Datapath:U_Datapath" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 95
+Info (12128): Elaborating entity "reg" for hierarchy "Datapath:U_Datapath|reg:U_PC" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 185
+Info (12128): Elaborating entity "mux2to1" for hierarchy "Datapath:U_Datapath|mux2to1:U_MemAddr_MUX" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 193
+Info (12128): Elaborating entity "Memory_top_level" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 200
 Info (12128): Elaborating entity "enable_logic" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|enable_logic:U_enable_logic" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd Line: 81
 Info (12128): Elaborating entity "RAM" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd Line: 89
 Info (12128): Elaborating entity "altsyncram" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/RAM.vhd Line: 63
@@ -979,7 +1141,7 @@ Info (12133): Instantiated megafunction "Datapath:U_Datapath|Memory_top_level:U_
     Info (12134): Parameter "indata_aclr_a" = "UNUSED"
     Info (12134): Parameter "indata_aclr_b" = "NONE"
     Info (12134): Parameter "indata_reg_b" = "CLOCK1"
-    Info (12134): Parameter "init_file" = "../../Documents_Provided/Deliverable4.mif"
+    Info (12134): Parameter "init_file" = "../VHDL/MyMIF.mif"
     Info (12134): Parameter "init_file_layout" = "PORT_A"
     Info (12134): Parameter "maximum_depth" = "0"
     Info (12134): Parameter "numwords_a" = "256"
@@ -1009,19 +1171,20 @@ Info (12133): Instantiated megafunction "Datapath:U_Datapath|Memory_top_level:U_
     Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK1"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=RAM0"
     Info (12134): Parameter "lpm_type" = "altsyncram"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ao04.tdf
-    Info (12023): Found entity 1: altsyncram_ao04 File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_ao04.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_ao04" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_o6u2.tdf
-    Info (12023): Found entity 1: altsyncram_o6u2 File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_o6u2.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_o6u2" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|altsyncram_o6u2:altsyncram1" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_ao04.tdf Line: 38
-Warning (113028): 243 out of 256 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 3 warnings found, and 3 warnings are reported. File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Documents_Provided/Deliverable4.mif Line: 1
-    Warning (113027): Addresses ranging from 11 to 47 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Documents_Provided/Deliverable4.mif Line: 1
-    Warning (113027): Addresses ranging from 49 to 59 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Documents_Provided/Deliverable4.mif Line: 1
-    Warning (113027): Addresses ranging from 61 to 255 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Documents_Provided/Deliverable4.mif Line: 1
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_ao04.tdf Line: 39
-Info (12130): Elaborated megafunction instantiation "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_ao04.tdf Line: 39
-Info (12133): Instantiated megafunction "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2" with the following parameter: File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_ao04.tdf Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_egu3.tdf
+    Info (12023): Found entity 1: altsyncram_egu3 File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_egu3.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_egu3" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_sur2.tdf
+    Info (12023): Found entity 1: altsyncram_sur2 File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_sur2.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_sur2" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|altsyncram_sur2:altsyncram1" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_egu3.tdf Line: 38
+Warning (113028): 222 out of 256 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 4 warnings found, and 4 warnings are reported. File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/MyMIF.mif Line: 1
+    Warning (113027): Addresses ranging from 29 to 38 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/MyMIF.mif Line: 1
+    Warning (113027): Addresses ranging from 42 to 47 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/MyMIF.mif Line: 1
+    Warning (113027): Addresses ranging from 49 to 59 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/MyMIF.mif Line: 1
+    Warning (113027): Addresses ranging from 61 to 255 are not initialized File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/MyMIF.mif Line: 1
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_egu3.tdf Line: 39
+Info (12130): Elaborated megafunction instantiation "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_egu3.tdf Line: 39
+Info (12133): Instantiated megafunction "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2" with the following parameter: File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/altsyncram_egu3.tdf Line: 39
     Info (12134): Parameter "CVALUE" = "00000000000000000000000000000000"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "1"
     Info (12134): Parameter "IS_READABLE" = "1"
@@ -1030,17 +1193,17 @@ Info (12133): Instantiated megafunction "Datapath:U_Datapath|Memory_top_level:U_
     Info (12134): Parameter "SHIFT_COUNT_BITS" = "6"
     Info (12134): Parameter "WIDTH_WORD" = "32"
     Info (12134): Parameter "WIDTHAD" = "8"
-Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 302
-Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 232
-Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_ao04:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 828
+Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 302
+Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 232
+Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|RAM:U_RAM|altsyncram:altsyncram_component|altsyncram_egu3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 828
 Info (12128): Elaborating entity "mux4to1" for hierarchy "Datapath:U_Datapath|Memory_top_level:U_Memory|mux4to1:U_MUX" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Memory_top_level.vhd Line: 125
-Info (12128): Elaborating entity "mux2to1" for hierarchy "Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX0" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 230
-Info (12128): Elaborating entity "registerfile" for hierarchy "Datapath:U_Datapath|registerfile:U_RegFile" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 249
-Info (12128): Elaborating entity "sign_extend" for hierarchy "Datapath:U_Datapath|sign_extend:U_sign_extend" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 263
-Info (12128): Elaborating entity "alu" for hierarchy "Datapath:U_Datapath|alu:U_ALU" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 293
-Info (12128): Elaborating entity "alu_control" for hierarchy "Datapath:U_Datapath|alu_control:U_ALU_CTRL" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 342
+Info (12128): Elaborating entity "mux2to1" for hierarchy "Datapath:U_Datapath|mux2to1:U_RegFile_IN_MUX0" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 232
+Info (12128): Elaborating entity "registerfile" for hierarchy "Datapath:U_Datapath|registerfile:U_RegFile" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 251
+Info (12128): Elaborating entity "sign_extend" for hierarchy "Datapath:U_Datapath|sign_extend:U_sign_extend" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 265
+Info (12128): Elaborating entity "alu" for hierarchy "Datapath:U_Datapath|alu:U_ALU" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 295
+Info (12128): Elaborating entity "alu_control" for hierarchy "Datapath:U_Datapath|alu_control:U_ALU_CTRL" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/Datapath.vhd Line: 345
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2025.08.17.00:12:19 Progress: Loading sld4b378a6e/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2025.10.28.21:19:49 Progress: Loading sld4b378a6e/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1063,52 +1226,50 @@ Info (12021): Found 2 design units, including 1 entities, in source file db/ip/s
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/ip/sld4b378a6e/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "outport_data[0]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[1]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[2]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[3]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[4]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[5]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[6]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[7]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[8]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[9]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[10]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[11]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[12]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[13]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[14]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[15]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[16]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[17]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[18]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[19]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[20]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[21]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[22]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[23]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[24]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[25]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[26]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[27]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[28]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[29]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[30]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
-    Warning (13410): Pin "outport_data[31]" is stuck at GND File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/top_level.vhd Line: 33
+Info (278001): Inferred 2 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Datapath:U_Datapath|alu:U_ALU|Mult1" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 51
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Datapath:U_Datapath|alu:U_ALU|Mult0" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 47
+Info (12130): Elaborated megafunction instantiation "Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 51
+Info (12133): Instantiated megafunction "Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult1" with the following parameter: File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 51
+    Info (12134): Parameter "LPM_WIDTHA" = "32"
+    Info (12134): Parameter "LPM_WIDTHB" = "32"
+    Info (12134): Parameter "LPM_WIDTHP" = "64"
+    Info (12134): Parameter "LPM_WIDTHR" = "64"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_tns.tdf
+    Info (12023): Found entity 1: mult_tns File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/mult_tns.tdf Line: 31
+Info (12130): Elaborated megafunction instantiation "Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0" File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 47
+Info (12133): Instantiated megafunction "Datapath:U_Datapath|alu:U_ALU|lpm_mult:Mult0" with the following parameter: File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/VHDL/alu.vhd Line: 47
+    Info (12134): Parameter "LPM_WIDTHA" = "32"
+    Info (12134): Parameter "LPM_WIDTHB" = "32"
+    Info (12134): Parameter "LPM_WIDTHP" = "64"
+    Info (12134): Parameter "LPM_WIDTHR" = "64"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_qgs.tdf
+    Info (12023): Found entity 1: mult_qgs File: C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/Quartus/db/mult_qgs.tdf Line: 31
+Info (13014): Ignored 470 buffer(s)
+    Info (13019): Ignored 470 SOFT buffer(s)
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
-Info (17049): 96 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3169 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4357 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 33 output pins
-    Info (21061): Implemented 3087 logic cells
+    Info (21061): Implemented 4259 logic cells
     Info (21064): Implemented 32 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 38 warnings
-    Info: Peak virtual memory: 4965 megabytes
-    Info: Processing ended: Sun Aug 17 00:12:27 2025
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:30
+    Info (21062): Implemented 16 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4982 megabytes
+    Info: Processing ended: Tue Oct 28 21:20:01 2025
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:36
 
 

@@ -1,39 +1,6 @@
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of tb_alu.vhd was successful.
-# 16 compiles, 0 failed with no errors.
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of tb_alu.vhd was successful.
-# Compile of tb_alu_control.vhd was successful.
-# Compile of tb_Controller.vhd was successful.
-# 18 compiles, 0 failed with no errors.
+# Reading pref.tcl
+# OpenFile C:/Users/noahw/Docs_notSaved/EEL4712C/MIPS/Weeks_All/ModelSim/MIPS.mpf
+# Loading project MIPS
 # Compile of alu.vhd was successful.
 # Compile of alu_control.vhd was successful.
 # Compile of Controller.vhd was successful.
@@ -51,137 +18,40 @@
 # Compile of tb_top_level.vhd was successful.
 # Compile of tb_alu.vhd was successful.
 # Compile of tb_alu_control.vhd was successful.
-# Compile of tb_Controller.vhd was successful.
-# 18 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of tb_alu.vhd was successful.
-# Compile of tb_alu_control.vhd was successful.
-# Compile of tb_Controller.vhd was successful.
-# 18 compiles, 0 failed with no errors.
-# Load canceled
-vsim -gui work.tb_controller
-# vsim -gui work.tb_controller 
-# Start time: 16:01:20 on Aug 17,2025
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.tb_top_level
+# vsim -gui work.tb_top_level 
+# Start time: 22:50:57 on Oct 28,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.tb_controller(tb)
+# Loading work.tb_top_level(behavior)
+# Loading work.top_level(structural)
 # Loading work.controller(behavioral)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: noahw  Hostname: NOAHS-PC  ProcessID: 3696
-#           Attempting to use alternate WLF file "./wlft517w77".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft517w77
-run -all
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-restart -f
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-quit -sim
-# End time: 16:29:52 on Aug 17,2025, Elapsed time: 0:28:32
-# Errors: 0, Warnings: 1
-vsim -gui work.tb_alu_control
-# vsim -gui work.tb_alu_control 
-# Start time: 16:30:49 on Aug 17,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_alu_control(tb)
+# Loading work.datapath(structural)
+# Loading work.reg(bhv)
+# Loading work.mux2to1(behavior)
+# Loading work.memory_top_level(structural)
+# Loading work.enable_logic(behavioral)
+# Loading altera_mf.altera_mf_components
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.mux4to1(behavior)
+# Loading work.registerfile(sync_read)
+# Loading work.sign_extend(behavioral)
+# Loading work.alu(behavioral)
 # Loading work.alu_control(behavioral)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: noahw  Hostname: NOAHS-PC  ProcessID: 3696
-#           Attempting to use alternate WLF file "./wlft9wrfzt".
+#           Attempting to use alternate WLF file "./wlftsqvgw0".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft9wrfzt
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+#           Using alternate file: ./wlftsqvgw0
 run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
 quit -sim
-# End time: 16:38:05 on Aug 17,2025, Elapsed time: 0:07:16
-# Errors: 0, Warnings: 1
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of tb_alu.vhd was successful.
-# Compile of tb_alu_control.vhd was successful.
-# Compile of tb_Controller.vhd was successful.
-# 18 compiles, 0 failed with no errors.
-vsim -gui work.tb_alu_control
-# vsim -gui work.tb_alu_control 
-# Start time: 16:44:37 on Aug 17,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_alu_control(tb)
-# Loading work.alu_control(behavioral)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: noahw  Hostname: NOAHS-PC  ProcessID: 3696
-#           Attempting to use alternate WLF file "./wlftjnn97n".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftjnn97n
-# Can't move the Now cursor.
-run -all
-# ** Note: ADDU passed: got 0x21
-#    Time: 10 ns  Iteration: 0  Instance: /tb_alu_control
-quit -sim
-# End time: 16:48:13 on Aug 17,2025, Elapsed time: 0:03:36
+# End time: 22:59:05 on Oct 28,2025, Elapsed time: 0:08:08
 # Errors: 0, Warnings: 4
-# Compile of alu.vhd was successful.
-# Compile of alu_control.vhd was successful.
-# Compile of Controller.vhd was successful.
-# Compile of Datapath.vhd was successful.
-# Compile of enable_logic.vhd was successful.
-# Compile of Memory_top_level.vhd was successful.
-# Compile of mux2to1.vhd was successful.
-# Compile of mux4to1.vhd was successful.
-# Compile of PC.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of registerfile.vhd was successful.
-# Compile of sign_extend.vhd was successful.
-# Compile of top_level.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of tb_top_level.vhd was successful.
-# Compile of tb_alu.vhd was successful.
-# Compile of tb_alu_control.vhd was successful.
-# Compile of tb_Controller.vhd was successful.
-# 18 compiles, 0 failed with no errors.
