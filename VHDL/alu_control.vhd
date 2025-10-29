@@ -100,6 +100,24 @@ begin
             when "000011" =>                                        -- For JAL
                 OpSel       <= X"08";
 
+            when "000100" =>                                        -- For BEQ
+                OpSel       <= X"04";
+            
+            when "000110" =>                                        -- For BLEZ
+                OpSel       <= X"06";
+            
+            when "000101" =>                                        -- For BNE
+                OpSel       <= X"05";
+
+            when "000111" =>                                        -- For BGTZ
+                OpSel       <= X"07";
+
+            when "000001" =>                                        -- For BLTZ
+                OpSel       <= X"01";
+
+            when "010000" =>                                        -- For BGEZ
+                OpSel       <= X"10";
+
             when others => null;
         end case;
 

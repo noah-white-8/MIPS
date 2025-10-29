@@ -67,7 +67,7 @@ Content
 0F : 24220005;
 
 -- ADDIU r3, r1, 0x08 (r3 = 8) (Encoding verified) (Simulated and works)
-10 : 24230008;
+10 : 24230005;
 
 -- ANDI r8, r2, 0x04 (r8 = r2 AND 0x04) (Encoding initial write) (Simulation and works)
 11 : 30480004;
@@ -78,27 +78,29 @@ Content
 -- XORI r8, r2, 0x03 (r8 = r2 XOR 0x03) (Encoding initial write) (Simulation and works)
 13 : 38480003;
 
+-- BEQ r2, r3, 0x05 (Branch to 14+1+5 if r2 = r3) (Encoding initial write) (Simulated and works)
+14 : 10430005;
+
 -- SLTI r8, r2, 0x07 (r8 = r2 < 0x07) (Encoding initial write) (Simulated and works)
-14 : 28480007;
+15 : 28480007;
 
 -- SLTI r8, r2, 0x03 (r8 = r2 < 0x03) (Encoding initial write) (Simulated and works)
-15 : 28480003;
+16 : 28480003;
 
 -- SLTIU r9, r2, 0x06 (r9 = r2 < 0x06) (Encoding initial write) (Simulated and works)
-16 : 2C490006;
+17 : 2C490006;
 
 -- ADDIU r8, r1, 0x20 (r8 = 0x20) (Encoding initial write) (Simulated and works)
-17 : 24280020;
+18 : 24280020;
 
 -- JAL 0x27 (Jumps to 0x27 & stores return addr in r31) (Encoding initial write) (Simulated and works)
-18 : 0C000027;
+19 : 0C000027;
 
 -- SW r3, 0xA(r8) (Store r3 to address specified by r8 + 0xA) (Encoding initial write) (Simulated and works)
-19 : AD03000A;
+1A : AD03000A;
 
 -- LW r9, 0xA(r8) (Load the data at address r8 + 0xA into r9) (Encoding initial write) (Simulated and works)
-1A : 8D09000A;
-
+1B : 8D09000A;
 
 
 -- J 0x14 (Jump to addr 0x14) (Encoding initial write) (Simulated and works)
@@ -109,7 +111,7 @@ Content
 
 
 
-1B : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
+1C : FC000000; -- halt execution (change instruction # to whatever it needs to be so it's next) (Simulated and works)
 
 
 

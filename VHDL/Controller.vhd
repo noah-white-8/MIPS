@@ -45,7 +45,7 @@ end entity Controller;
 
 -- Here in lies the architecture. Oh how beautiful with her gothic walls and gargoyles
 architecture behavioral of Controller is
-    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE, LW1, LW2, LW3, SW, JAL1, JAL2);      -- Each STATE reps one CYCLE imma say
+    type state_t is (START, INST_FETCH1, INST_FETCH2, REG_FETCH, INST_DECODE, R_TYPE, I_TYPE, LW1, LW2, LW3, SW, JAL1, JAL2, BEQ, BLEZ, BRANCH);      -- Each STATE reps one CYCLE imma say
     signal state_r, next_state : state_t;
     
 begin
@@ -188,6 +188,42 @@ begin
                         ALUOp       <= "000011";
                         ALUSrcA     <= '0';
                         next_state  <= JAL1;
+
+                    when "000100" =>                -- 0x04 for BEQ
+                        ALUOp       <= "001111";
+                        ALUSrcA     <= '0';
+                        ALUSrcB     <= "10";
+                        next_state  <= BRANCH;
+
+                    when "000110" =>                -- 0x06 for BLEZ
+                        ALUOp       <= "001111";
+                        ALUSrcA     <= '0';
+                        ALUSrcB     <= "10";
+                        next_state  <= BRANCH;
+
+                    when "000101" =>                -- 0x05 for BNE
+                        ALUOp       <= "001111";
+                        ALUSrcA     <= '0';
+                        ALUSrcB     <= "10";
+                        next_state  <= BRANCH;
+
+                    when "000111" =>                -- 0x07 for BGTZ
+                        ALUOp       <= "001111";
+                        ALUSrcA     <= '0';
+                        ALUSrcB     <= "10";
+                        next_state  <= BRANCH;
+
+                    when "000001" =>                -- 0x01 for BLTZ
+                        ALUOp       <= "001111";
+                        ALUSrcA     <= '0';
+                        ALUSrcB     <= "10";
+                        next_state  <= BRANCH;
+
+                    when "010000" =>                -- 0x10 for BGEZ
+                        ALUOp       <= "001111";
+                        ALUSrcA     <= '0';
+                        ALUSrcB     <= "10";
+                        next_state  <= BRANCH;
                     
                     when others => null;
                 end case;
@@ -244,7 +280,29 @@ begin
                 PCWrite     <= '1';
                 next_state  <= START;
 
+            when BRANCH =>                  -- For all branch instructions (only ALUOp changes for each)
+                ALUOp       <= IR31to26;
+                ALUSrcA     <= '1';
+                ALUSrcB     <= "00";
+                PCSource    <= "01";
+                PCWriteCond <= '1';
+                next_state  <= START;
 
+            -- when BEQ =>
+            --     ALUSrcA     <= '1';
+            --     ALUSrcB     <= "00";
+            --     ALUOp       <= "000100";
+            --     PCSource    <= "01";
+            --     PCWriteCond <= '1';
+            --     next_state  <= START;
+
+            -- when BLEZ =>
+            --     ALUSrcA     <= '1';
+            --     ALUSrcB     <= "00";
+            --     ALUOp       <= "000110";
+            --     PCSource    <= "01";
+            --     PCWriteCond <= '1';
+            --     next_state  <= START;
 
             when others => null;
         end case;

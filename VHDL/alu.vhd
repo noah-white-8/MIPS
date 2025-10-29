@@ -87,6 +87,30 @@ begin
                 else
                     branch_taken <= '0';
                 end if;
+            when X"04" =>                           -- beq (branch if equal)
+                if (signed(inputA) = signed(inputB)) then
+                    branch_taken <= '1';
+                else
+                    branch_taken <= '0';
+                end if;
+            when X"05" =>                           -- bne (branch if not equal)
+                if (signed(inputA) /= signed(inputB)) then
+                    branch_taken <= '1';
+                else
+                    branch_taken <= '0';
+                end if;
+            when X"01" =>                           -- bltz (branch if less than zero)
+                if (signed(inputA) < 0) then
+                    branch_taken <= '1';
+                else
+                    branch_taken <= '0';
+                end if;
+            when X"10" =>                           -- bgez (branch if greater than or equal to zero)
+                if (signed(inputA) >= 0) then
+                    branch_taken <= '1';
+                else
+                    branch_taken <= '0';
+                end if;                     
             when X"08" =>                           -- Pass through inputA to output (for jump register & JAL instructions)
                 result <= inputA;
             when others =>
